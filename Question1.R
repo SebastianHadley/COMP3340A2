@@ -1,17 +1,39 @@
 # install.packages('igraph')
 # install.packages('cccd')
+# install.packages('caret')
+# install.packages('Boruta')
 main <- function() {
   library('cccd')
   library('igraph')
-  
+  library('Boruta')
+  library('caret')
   datafile <- read.csv('../Datasets/xAPI-edu-Data.csv')
   pearsons <- question_1a(datafile)
   question_1b(datafile)
-  datafile <- read.csv("../Datasets/AlzheimersDisease.csv", header = TRUE)
+  temp <- read.csv("../Datasets/AlzheimersDisease.csv", header = TRUE)
+  datafile <- read.csv("../Datasets/AlzheimersDisease.csv", header = FALSE)
+  colnames(datafile) <- temp$colnames
   # generate_matrixes(datafile)
-  get_relative_neighbourhoods()
+  # get_relative_neighbourhoods
+  question_3(datafile)
 }
  
+question_3 <- function(datafile){
+  rownames(datafile) <- datafile[,1]
+  datafile[,1] <- NULL
+  rownames(datafile)[1]<- "CLASS"
+  print(rownames(datafile))
+  feature_selection(datafile)
+}
+feature_selection <- function(data){
+  set.seed(111)
+  print(data)
+  data2 <- t(data)
+  bor <- Boruta(as.factor(data2[,1]), x = data2, doTrace = 2)
+  x <- getSelectedAttributes(bor, withTentative = FALSE)
+  print(x)
+  # print(results)
+}
 get_relative_neighbourhoods <- function(){
   samples_matrix <- read.csv("../Datasets/samples_distance_matrix.csv", header = TRUE)
   proteins_matrix <- read.csv("../Datasets/proteins_distance_matrix.csv")
@@ -22,19 +44,24 @@ get_relative_neighbourhoods <- function(){
   relative_neighbourhoods(samples_matrix,"samples")
   relative_neighbourhoods(proteins_matrix,"proteins")
 }
+
+
 relative_neighbourhoods <- function(matrix,title)
 {
-  print("hello")
-  rng_graph <- rng(dx = matrix, algorithm = 'kd_tree', open = TRUE)
+  matrix1 <- as.matrix(matrix)
+  rng_graph <- rng(dx = matrix1, open = FALSE,r = 1, algorithm = 'cover_tree')
+  print(rng_graph)
   rng_graph <- as.undirected(rng_graph)
   #adds labels
-  V(rng_graph)$label <- colnames(matrix)
-  
-  E(rng_graph)$weight <- apply(get.edges(rng_graph, 1:gsize(rng_graph)),1,function(x)matrix[x[1],x[2]])
-  E(rng_graph)$label <- E(rng_graph)$weight
+  V(rng_graph)$label <- colnames(matrix1)
+  E(rng_graph)$weight <- apply(get.edges(rng_graph, 1:gsize(rng_graph)),1,function(x)matrix1[x[1],x[2]])
+  E(rng_graph)$label <- round(E(rng_graph)$weight, 3)
   name <- paste("Results/",title,"RNG.gml", sep ="")
+  plot(rng_graph)
   write_graph(rng_graph, name, format = 'gml')
 }
+
+
 generate_matrixes <- function(datafile)
 {
   rownames(datafile) <- datafile[,1]
@@ -57,6 +84,8 @@ generate_matrixes <- function(datafile)
   write_graph(proteins_graph, 'Results/proteinsMST.gml',format = 'gml')
   print("hello")
 }
+
+
 get_distance_proteins <- function(datafile)
 {
   proteins <- matrix(nrow = nrow(datafile), ncol = nrow(datafile))
@@ -76,6 +105,8 @@ get_distance_proteins <- function(datafile)
   }
   return(proteins)
 }
+
+
 get_distance_samples <- function(datafile)
 {
   
@@ -96,16 +127,11 @@ get_distance_samples <- function(datafile)
   return(samples)
 }
 
-
-
 question_1a <- function(datafile){
   #function takes a dataframe as input and uses the cor method which calculates the pearsons correlation for all the variable pairs.
   numeric_columns <- datafile[ names(datafile) %in% c("raisedhands","VisITedResources","AnnouncementsView","Discussion")]
   pearsons <- cor(numeric_columns, method = "pearson")
 }
-
-
-
 
 question_1b <- function(datafile){
   
