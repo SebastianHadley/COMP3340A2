@@ -22,17 +22,26 @@ question_3 <- function(datafile){
   rownames(datafile) <- datafile[,1]
   datafile[,1] <- NULL
   rownames(datafile)[1]<- "CLASS"
-  print(rownames(datafile))
-  feature_selection(datafile)
+  datafile <- t(datafile)
+  #prints classes that are important in determining Alzheimers
+  proteins <- feature_selection(datafile)
+  #uses those printed classes to do the classification
+  classification_code(datafile, proteins)
+}
+
+classification_code <- function(data, columns)
+{
+  print(data)
+  working_data <- data[ colnames(data) %in% c(columns)]
+  print(numeric_columns)
+  write.csv(numeric_columns,file="test.csv")
 }
 feature_selection <- function(data){
   set.seed(111)
-  print(data)
-  data2 <- t(data)
-  bor <- Boruta(as.factor(data2[,1]), x = data2, doTrace = 2)
+  bor <- Boruta(as.factor(data[,1]), x = data, doTrace = 2)
+  bor <- TentativeRoughFix(bor, averageOver = Inf)
   x <- getSelectedAttributes(bor, withTentative = FALSE)
-  print(x)
-  # print(results)
+  x
 }
 get_relative_neighbourhoods <- function(){
   samples_matrix <- read.csv("../Datasets/samples_distance_matrix.csv", header = TRUE)
@@ -78,7 +87,6 @@ generate_matrixes <- function(datafile)
   E(samples_graph)$label <- round(E(samples_graph)$weight, 3)
   V(proteins_graph)$label <- colnames(proteins_matrix)
   E(proteins_graph)$label <- round(E(proteins_graph)$weight, 3)
-
 
   write_graph(samples_graph, 'Results/samplesMST.gml',format = 'gml')
   write_graph(proteins_graph, 'Results/proteinsMST.gml',format = 'gml')
