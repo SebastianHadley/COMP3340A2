@@ -26,26 +26,29 @@ question_3 <- function(datafile){
   #prints classes that are important in determining Alzheimers
   proteins <- feature_selection(datafile)
   #uses those printed classes to do the classification
-  classification_code(datafile, matrix(proteins))
+  classification_code(proteins)
 }
 
-classification_code <- function(data, columns)
+classification_code <- function(data)
 {
-  data <- as.matrix(data)
-  print(columns)
-  matrix1 <- matrix(nrow = nrow(data),ncol = nrow(columns))
-  matrix1 <- matrix(data = data[,colnames(data) %in% columns],nrow = nrow(data), ncol = nrow(columns))
-  matrix1[,'RANTES'] <- c(data[,'RANTES_1'])
-  print(matrix1)
-  write.csv(working_data,file="test.csv")
+  print(data)
 }
 feature_selection <- function(data){
   set.seed(111)
   bor <- Boruta(as.factor(data[,1]), x = data, doTrace = 2)
   bor <- TentativeRoughFix(bor, averageOver = Inf)
   x <- getSelectedAttributes(bor, withTentative = FALSE)
-  print(getSelectedAttributes)
-  x
+  x <- as.data.frame(x)
+  a = 1
+  while(a < nrow(x))
+  {
+    x[a,1] <- gsub(".","-",x[a,1], fixed = TRUE)
+    a = a + 1
+  }
+  matrix1 <- matrix(data = data[,colnames(data) %in% x[,1]], nrow = nrow(data), ncol = nrow(x))
+  colnames(matrix1) <- x[,1]
+  rownames(matrix1) <- rownames(data)
+  matrix1
 }
 get_relative_neighbourhoods <- function(){
   samples_matrix <- read.csv("../Datasets/samples_distance_matrix.csv", header = TRUE)
