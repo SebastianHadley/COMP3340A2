@@ -6,41 +6,62 @@ main <- function() {
   library('cccd')
   library('igraph')
   library('Boruta')
-  library('caret')
   datafile <- read.csv('../Datasets/xAPI-edu-Data.csv')
   pearsons <- question_1a(datafile)
   question_1b(datafile)
-  temp <- read.csv("../Datasets/AlzheimersDisease.csv", header = TRUE)
   datafile <- read.csv("../Datasets/AlzheimersDisease.csv", header = FALSE)
-  # colnames(datafile) <- colnames(temp)
+  # question_3(datafile)
+  generate_sheetAlzheimersCSV()
   # # generate_matrixes(datafile)
-  # # get_relative_neighbourhoods
-  question_3(datafile)
+  # get_relative_neighbourhoods()
+  # question_3(datafile) 
 }
  
+generate_sheetAlzheimersCSV <- function(){
+  test_ad <- read.csv("../Datasets/TestSetAD.csv", header = FALSE)
+  test_ad <- add_rownames(test_ad)
+  test_ad <- t(test_ad)
+  test_ad <- fix_classes(test_ad)
+  write.csv(test_ad,"testAD.csv")
+  test_mci <- read.csv("../Datasets/TestSetMCI.csv", header = TRUE)
+  colnames(test_mci) <- NULL
+  temp <- test_mci[1,]
+  temp[1] <- "CLASS"
+  test_mci[1,] <- temp
+  x <- nrow(test_mci) - 121
+  test_mci <- head(test_mci, -x)
+  test_mci <- t(test_mci)
+  colnames(test_mci) <-  test_mci[1,]
+  test_mci <- test_mci[-c(1),]
+  test_mci <- fix_classes(test_mci)
+  write.csv(test_mci,"testMCI.csv")
+}
+
 question_3 <- function(datafile){
-  rownames(datafile) <- datafile[,1]
-  datafile[,1] <- NULL
-  rownames(datafile)[1]<- "CLASS"
+  datafile <- add_rownames(datafile)
   datafile <- t(datafile)
   #prints classes that are important in determining Alzheimers
   proteins <- feature_selection(datafile)
   #uses those printed classes to do the classification
-  classification_code(proteins)
+  # classification_code(proteins)
 }
 
-classification_code <- function(data)
+add_rownames <- function(datafile)
 {
-  print(data)
+  rownames(datafile) <- datafile[,1]
+  datafile[,1] <- NULL
+  rownames(datafile)[1]<- "CLASS"
+  datafile
 }
+
 feature_selection <- function(data){
   set.seed(111)
-  bor <- Boruta(as.factor(data[,1]), x = data, doTrace = 2)
+  bor <- Boruta(as.factor(data[,1]), x = data)
   bor <- TentativeRoughFix(bor, averageOver = Inf)
   x <- getSelectedAttributes(bor, withTentative = FALSE)
   x <- as.data.frame(x)
   a = 1
-  while(a < nrow(x))
+  while(a <= nrow(x))
   {
     x[a,1] <- gsub(".","-",x[a,1], fixed = TRUE)
     a = a + 1
@@ -48,11 +69,26 @@ feature_selection <- function(data){
   matrix1 <- matrix(data = data[,colnames(data) %in% x[,1]], nrow = nrow(data), ncol = nrow(x))
   colnames(matrix1) <- x[,1]
   rownames(matrix1) <- rownames(data)
-  matrix1
+  a = 1
+  matrix1 <- fix_classes(matrix1)
+  write.csv(matrix1, file = "Results/features.csv")
+  x
+}
+
+fix_classes <-function(matrix){
+  a = 1
+  while(a <= nrow(matrix))
+  {
+    if(matrix[a,1] != 'AD'){
+      matrix[a,1] = "NON_AD"
+    }
+    a = a + 1
+  }
+  matrix
 }
 get_relative_neighbourhoods <- function(){
   samples_matrix <- read.csv("../Datasets/samples_distance_matrix.csv", header = TRUE)
-  proteins_matrix <- read.csv("../Datasets/proteins_distance_matrix.csv")
+  proteins_matrix <- read.csv("../Datasets/proteins_distance_matrix.csv",header= TRUE)
   rownames(samples_matrix) <- samples_matrix[,1]
   rownames(proteins_matrix) <- proteins_matrix[,1]
   proteins_matrix[,1] <- NULL
@@ -65,8 +101,7 @@ get_relative_neighbourhoods <- function(){
 relative_neighbourhoods <- function(matrix,title)
 {
   matrix1 <- as.matrix(matrix)
-  rng_graph <- rng(dx = matrix1, open = FALSE,r = 1, algorithm = 'cover_tree')
-  print(rng_graph)
+  rng_graph <- rng(dx = matrix1,r = 1, algorithm = 'cover_tree')
   rng_graph <- as.undirected(rng_graph)
   #adds labels
   V(rng_graph)$label <- colnames(matrix1)
@@ -81,7 +116,6 @@ relative_neighbourhoods <- function(matrix,title)
 generate_matrixes <- function(datafile)
 {
   rownames(datafile) <- datafile[,1]
-  datafile[,1] <- NULL
   samples_matrix <- get_distance_samples(datafile)
   proteins_matrix <- get_distance_proteins(datafile)
   write.csv(samples_matrix,file ="../Datasets/samples_distance_matrix.csv")
@@ -97,7 +131,6 @@ generate_matrixes <- function(datafile)
 
   write_graph(samples_graph, 'Results/samplesMST.gml',format = 'gml')
   write_graph(proteins_graph, 'Results/proteinsMST.gml',format = 'gml')
-  print("hello")
 }
 
 
