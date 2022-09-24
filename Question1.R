@@ -29,12 +29,15 @@ question_4 <- function(){
   class <-  datafile[5]
   datafile[,5] <- NULL
   # generate_distances(datafile,"IrisRowsMatrix","IrisAttributesMatrix")
-  datafile[,1] <- class
+
+  
+   datafile[,1] <- class
   datafile[,5] <- checking
   colnames(datafile)[1] <- "CLASS"
   colnames(datafile)[5] <- "SepalLengthCm"
-  print(datafile)
-  feature_selection(datafile,"IrisFeatures",FALSE)
+  split_data(datafile)
+  # print(datafile)
+  # feature_selection(datafile,"IrisFeatures",FALSE)
 }
 question_2 <- function(datafile){
 
@@ -52,7 +55,16 @@ question_3 <- function(datafile){
   #uses those printed classes to do the classification
   # generate_sheetAlzheimersCSV()
 }
-
+split_data <- function(datafile)
+{
+  set.seed(11)
+  datafile <- datafile[sample(1:nrow(datafile)),] 
+  write.csv(datafile[1:50,],"Results/TrainingSet.csv")
+  write.csv(datafile[51:100,],"Results/TestSet1.csv")
+  write.csv(datafile[101:150,],"Results/TestSet2.csv")
+  
+  
+}
 add_rownames <- function(datafile){
   rownames(datafile) <- datafile[,1]
   datafile[,1] <- NULL
@@ -107,7 +119,7 @@ fix_proteins <-function(matrix){
 #creates RNG graphs with a matrix and a title given
 relative_neighbourhoods <- function(matrix,title){
   matrix1 <- as.matrix(matrix)
-  rng_graph <- rng(dx = matrix1,r = 1, algorithm = 'cover_tree')
+  rng_graph <- rng(dx = matrix1,r = 1,open = FALSE,algorithm = 'cover_tree')
   rng_graph <- as.undirected(rng_graph)
   #adds labels
   V(rng_graph)$label <- colnames(matrix1)

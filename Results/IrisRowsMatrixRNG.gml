@@ -11,8 +11,8 @@ graph
 		label	"1"
 		graphics
 		[
-			x	1703.1384277722948
-			y	1003.3627331371304
+			x	1935.0319250510713
+			y	1115.1787686940688
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -34,8 +34,8 @@ graph
 		label	"2"
 		graphics
 		[
-			x	1742.556848127084
-			y	1330.4458633384975
+			x	1286.3197925424236
+			y	1509.0421955272493
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -57,8 +57,8 @@ graph
 		label	"3"
 		graphics
 		[
-			x	1540.4952527972314
-			y	1720.5857519357562
+			x	1205.8942808872441
+			y	2004.2209871200607
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -80,8 +80,8 @@ graph
 		label	"4"
 		graphics
 		[
-			x	1241.9798766019326
-			y	1902.1776627507052
+			x	1789.2725280210407
+			y	1741.9883632448486
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -103,8 +103,8 @@ graph
 		label	"5"
 		graphics
 		[
-			x	1581.7537978211747
-			y	961.3719438867289
+			x	1978.7075433166513
+			y	875.0173784330914
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -126,8 +126,8 @@ graph
 		label	"6"
 		graphics
 		[
-			x	1732.5876550393386
-			y	344.77084754947657
+			x	2101.62212410492
+			y	634.7859156898828
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -149,8 +149,8 @@ graph
 		label	"7"
 		graphics
 		[
-			x	1717.2471892097165
-			y	1531.0696991092796
+			x	1285.8160883649712
+			y	1867.5178886284398
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -172,8 +172,8 @@ graph
 		label	"8"
 		graphics
 		[
-			x	1419.7509501780994
-			y	1170.442524216331
+			x	1411.216675242368
+			y	1301.0905590289115
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -195,8 +195,8 @@ graph
 		label	"9"
 		graphics
 		[
-			x	2117.501797498766
-			y	2660.5717934254053
+			x	2626.391053054018
+			y	1751.4222434248431
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -218,8 +218,8 @@ graph
 		label	"10"
 		graphics
 		[
-			x	2496.0
-			y	309.0
+			x	1672.5800983950471
+			y	1433.3374370328615
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -241,8 +241,8 @@ graph
 		label	"11"
 		graphics
 		[
-			x	1782.769451950234
-			y	547.0973187031814
+			x	1931.7083552994377
+			y	696.4639681632564
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -264,8 +264,8 @@ graph
 		label	"12"
 		graphics
 		[
-			x	1460.0396904359866
-			y	1438.840074925578
+			x	1293.8025716964564
+			y	1668.55636818187
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -287,8 +287,8 @@ graph
 		label	"13"
 		graphics
 		[
-			x	1970.9422560301286
-			y	1218.9275587600166
+			x	1124.793307639776
+			y	1589.5106420076013
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -310,8 +310,8 @@ graph
 		label	"14"
 		graphics
 		[
-			x	2415.3591931837577
-			y	2334.2261311949374
+			x	2005.154818899587
+			y	1818.553310863083
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -333,8 +333,8 @@ graph
 		label	"15"
 		graphics
 		[
-			x	1153.7540954682597
-			y	15.0
+			x	1471.6437453720546
+			y	56.756982459655205
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -356,8 +356,8 @@ graph
 		label	"16"
 		graphics
 		[
-			x	1381.0006063580722
-			y	39.28133197426371
+			x	1865.9685673988008
+			y	245.67386990783473
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -379,8 +379,8 @@ graph
 		label	"17"
 		graphics
 		[
-			x	1535.9476491875532
-			y	347.74298792215166
+			x	1790.5234230790406
+			y	399.1481866271679
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -402,8 +402,8 @@ graph
 		label	"18"
 		graphics
 		[
-			x	1571.3286477652407
-			y	800.7703474665534
+			x	2018.660377730949
+			y	1292.184029686559
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -425,8 +425,8 @@ graph
 		label	"19"
 		graphics
 		[
-			x	1579.7290530641383
-			y	172.41508281326787
+			x	2058.8390510666604
+			y	413.3620155727284
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -448,8 +448,8 @@ graph
 		label	"20"
 		graphics
 		[
-			x	1649.8645472804774
-			y	678.9141841304548
+			x	1754.4475004959704
+			y	733.366752261664
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -471,8 +471,8 @@ graph
 		label	"21"
 		graphics
 		[
-			x	1933.6262142321561
-			y	1014.7133317696556
+			x	1874.4837746207704
+			y	989.211844856088
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -494,8 +494,8 @@ graph
 		label	"22"
 		graphics
 		[
-			x	1481.9167159156536
-			y	662.2923801678589
+			x	1706.3184824799184
+			y	982.6445733461258
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -517,8 +517,8 @@ graph
 		label	"23"
 		graphics
 		[
-			x	1589.8499032022205
-			y	1370.1282916458913
+			x	1069.042190602133
+			y	1797.447914595582
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -540,8 +540,8 @@ graph
 		label	"24"
 		graphics
 		[
-			x	1398.8672512214043
-			y	779.1495935583514
+			x	1561.9270637537054
+			y	993.1108763409321
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -563,8 +563,8 @@ graph
 		label	"25"
 		graphics
 		[
-			x	1321.26552239483
-			y	1493.5583123123106
+			x	1400.125175252523
+			y	1614.6382763502459
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -586,8 +586,8 @@ graph
 		label	"26"
 		graphics
 		[
-			x	2577.0
-			y	309.0
+			x	1808.359436323998
+			y	1544.1758073699214
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -609,8 +609,8 @@ graph
 		label	"27"
 		graphics
 		[
-			x	1392.879077995805
-			y	1001.6697959633549
+			x	1501.9266392519498
+			y	1188.2171884020086
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -632,8 +632,8 @@ graph
 		label	"28"
 		graphics
 		[
-			x	1806.5313736803093
-			y	1125.8909513599888
+			x	1742.4133844969526
+			y	1127.714366741902
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -655,8 +655,8 @@ graph
 		label	"29"
 		graphics
 		[
-			x	1913.1930368686471
-			y	1398.0413606254938
+			x	1836.251093659786
+			y	1319.2171329055172
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -678,8 +678,8 @@ graph
 		label	"30"
 		graphics
 		[
-			x	1332.1034015488087
-			y	1643.4834584832624
+			x	1589.7622191961827
+			y	1788.8217577801884
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -701,8 +701,8 @@ graph
 		label	"31"
 		graphics
 		[
-			x	1386.837986068971
-			y	1783.1586545016812
+			x	1433.1755510840078
+			y	1778.3923768709817
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -724,8 +724,8 @@ graph
 		label	"32"
 		graphics
 		[
-			x	1973.387205855402
-			y	856.7654412753053
+			x	2109.3079026154855
+			y	1085.6636379180798
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -747,8 +747,8 @@ graph
 		label	"33"
 		graphics
 		[
-			x	1384.5189441315083
-			y	382.9541256645545
+			x	1622.0832353006929
+			y	362.59263304932813
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -770,8 +770,8 @@ graph
 		label	"34"
 		graphics
 		[
-			x	1354.1762928889577
-			y	206.24472683283523
+			x	1667.7717290728224
+			y	193.33815770457193
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -793,8 +793,8 @@ graph
 		label	"35"
 		graphics
 		[
-			x	2658.0
-			y	309.0
+			x	1633.1234808428294
+			y	1622.4320030490949
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -816,8 +816,8 @@ graph
 		label	"36"
 		graphics
 		[
-			x	1666.7596392602716
-			y	1183.7147529305164
+			x	1306.0671514732294
+			y	1397.8632252204493
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -839,8 +839,8 @@ graph
 		label	"37"
 		graphics
 		[
-			x	1926.0668924877596
-			y	674.3013270159815
+			x	2145.115127800406
+			y	872.0550878593831
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -862,8 +862,8 @@ graph
 		label	"38"
 		graphics
 		[
-			x	2496.0
-			y	390.0
+			x	1494.5211499295165
+			y	1506.9897313494807
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -885,8 +885,8 @@ graph
 		label	"39"
 		graphics
 		[
-			x	2103.2576642260283
-			y	2348.4702644676754
+			x	2315.7729359768027
+			y	1784.9877771439633
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -908,8 +908,8 @@ graph
 		label	"40"
 		graphics
 		[
-			x	1541.4383933406853
-			y	1088.98101695901
+			x	1657.9202398466346
+			y	1258.7409671176692
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -931,8 +931,8 @@ graph
 		label	"41"
 		graphics
 		[
-			x	1481.0328045296746
-			y	885.6390416305181
+			x	1932.7515092667359
+			y	1456.8070174710665
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -954,8 +954,8 @@ graph
 		label	"42"
 		graphics
 		[
-			x	2131.7459307715035
-			y	2972.6733223831347
+			x	2937.0091701312335
+			y	1717.8567097057235
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -977,8 +977,8 @@ graph
 		label	"43"
 		graphics
 		[
-			x	1872.49643345205
-			y	2137.8532801522524
+			x	1724.6419776654084
+			y	1948.7589401701923
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1000,8 +1000,8 @@ graph
 		label	"44"
 		graphics
 		[
-			x	1336.448375591639
-			y	665.1686643778116
+			x	1605.8611630018606
+			y	1107.6530255816645
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1023,8 +1023,8 @@ graph
 		label	"45"
 		graphics
 		[
-			x	1590.2040465718133
-			y	503.0541845890366
+			x	1925.6595556829882
+			y	510.41385216292554
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1046,8 +1046,8 @@ graph
 		label	"46"
 		graphics
 		[
-			x	1531.7107546372376
-			y	1571.3366907682237
+			x	1175.6478986784684
+			y	1724.8195851348278
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1069,8 +1069,8 @@ graph
 		label	"47"
 		graphics
 		[
-			x	1431.5005835693325
-			y	525.2285978533077
+			x	1730.5538960760925
+			y	547.7109825052335
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1092,8 +1092,8 @@ graph
 		label	"48"
 		graphics
 		[
-			x	1652.4801418960126
-			y	1916.0355821198978
+			x	1486.9031967134376
+			y	1968.5647587214535
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1115,8 +1115,8 @@ graph
 		label	"49"
 		graphics
 		[
-			x	1774.4284717817914
-			y	827.3513707007403
+			x	1803.529493961388
+			y	872.7326634756503
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1138,8 +1138,8 @@ graph
 		label	"50"
 		graphics
 		[
-			x	1539.7020656362124
-			y	1245.9469569293688
+			x	1531.5657307930505
+			y	1350.8961775817827
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1161,8 +1161,8 @@ graph
 		label	"51"
 		graphics
 		[
-			x	999.7452362393094
-			y	954.4502459531509
+			x	1321.3696658192976
+			y	421.0651335224021
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1184,8 +1184,8 @@ graph
 		label	"52"
 		graphics
 		[
-			x	950.6949170186696
-			y	1355.4359041186988
+			x	633.0302501156077
+			y	1402.44406177589
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1207,8 +1207,8 @@ graph
 		label	"53"
 		graphics
 		[
-			x	957.555379621136
-			y	802.8687841275654
+			x	1246.0218332817408
+			y	779.2032916259855
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1230,8 +1230,8 @@ graph
 		label	"54"
 		graphics
 		[
-			x	1198.3491600946295
-			y	1577.2748845052781
+			x	1373.5382097884521
+			y	1150.5635202450776
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1253,8 +1253,8 @@ graph
 		label	"55"
 		graphics
 		[
-			x	450.7045931653447
-			y	1480.6188048344316
+			x	497.2939529222044
+			y	1773.774338617221
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1276,8 +1276,8 @@ graph
 		label	"56"
 		graphics
 		[
-			x	628.8968044409364
-			y	1887.462974750083
+			x	801.3261270806522
+			y	1970.6402349415966
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1299,8 +1299,8 @@ graph
 		label	"57"
 		graphics
 		[
-			x	959.4689983664365
-			y	1111.762263298318
+			x	715.9428777001526
+			y	1171.526420952289
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1322,8 +1322,8 @@ graph
 		label	"58"
 		graphics
 		[
-			x	1198.5473968702702
-			y	966.0913521859147
+			x	1642.4480184671365
+			y	659.0278186715849
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1345,8 +1345,8 @@ graph
 		label	"59"
 		graphics
 		[
-			x	451.8112419595939
-			y	1335.3878249064762
+			x	443.71956528239366
+			y	1593.6728822795155
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1368,8 +1368,8 @@ graph
 		label	"60"
 		graphics
 		[
-			x	1182.3401644118699
-			y	1726.1048768902656
+			x	960.2285294654582
+			y	1233.513885046168
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1391,8 +1391,8 @@ graph
 		label	"61"
 		graphics
 		[
-			x	1372.1290522298982
-			y	1324.8439741834077
+			x	1471.6729132884197
+			y	239.73883889218473
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1414,8 +1414,8 @@ graph
 		label	"62"
 		graphics
 		[
-			x	374.1313903951616
-			y	1634.5771101409305
+			x	822.1395471646762
+			y	1441.5191727814927
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1437,8 +1437,8 @@ graph
 		label	"63"
 		graphics
 		[
-			x	1090.6847579784092
-			y	885.1925033909162
+			x	1393.1745936783423
+			y	755.461237856017
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1460,8 +1460,8 @@ graph
 		label	"64"
 		graphics
 		[
-			x	758.2984095336245
-			y	1600.1068849593455
+			x	693.5059880485364
+			y	1765.7344370062397
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1483,8 +1483,8 @@ graph
 		label	"65"
 		graphics
 		[
-			x	1243.7443996260943
-			y	1384.3962158643517
+			x	1449.8717889363306
+			y	1037.3325848141467
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1506,8 +1506,8 @@ graph
 		label	"66"
 		graphics
 		[
-			x	856.1229973592575
-			y	1125.654677023937
+			x	841.5539841096493
+			y	1166.4391240903224
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1529,8 +1529,8 @@ graph
 		label	"67"
 		graphics
 		[
-			x	465.88784116221996
-			y	2153.993156157822
+			x	701.5370998012754
+			y	2266.701731501146
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1552,8 +1552,8 @@ graph
 		label	"68"
 		graphics
 		[
-			x	1293.201233615131
-			y	905.1883267676222
+			x	1368.1421977880668
+			y	547.7806035729093
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1575,8 +1575,8 @@ graph
 		label	"69"
 		graphics
 		[
-			x	1178.1536973059185
-			y	645.8365989610885
+			x	1304.5009448157748
+			y	254.14553800080546
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1598,8 +1598,8 @@ graph
 		label	"70"
 		graphics
 		[
-			x	1030.4157192717446
-			y	1226.6466832787944
+			x	1293.844403348815
+			y	1029.664287948583
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1621,8 +1621,8 @@ graph
 		label	"71"
 		graphics
 		[
-			x	587.9371793304881
-			y	1367.762778495125
+			x	741.0493517797204
+			y	1316.1241686279202
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1644,8 +1644,8 @@ graph
 		label	"72"
 		graphics
 		[
-			x	1107.1527992674478
-			y	1456.635260859471
+			x	988.8697938476801
+			y	1504.8289802964125
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1667,8 +1667,8 @@ graph
 		label	"73"
 		graphics
 		[
-			x	1225.660501933851
-			y	368.1977676678181
+			x	1222.0910363280923
+			y	517.5414285059572
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1690,8 +1690,8 @@ graph
 		label	"74"
 		graphics
 		[
-			x	898.8853650916836
-			y	1663.1848116364067
+			x	1003.8151321535724
+			y	1916.8971451060938
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1713,8 +1713,8 @@ graph
 		label	"75"
 		graphics
 		[
-			x	629.481064570397
-			y	1241.7141189251643
+			x	382.89750146324445
+			y	1444.0159523637597
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1736,8 +1736,8 @@ graph
 		label	"76"
 		graphics
 		[
-			x	841.3938149905417
-			y	1284.5502642643116
+			x	506.9187752826397
+			y	1348.716264785649
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1759,8 +1759,8 @@ graph
 		label	"77"
 		graphics
 		[
-			x	289.1533544331421
-			y	1442.8777855286946
+			x	276.34001790113166
+			y	1634.497094992862
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1782,8 +1782,8 @@ graph
 		label	"78"
 		graphics
 		[
-			x	946.8190694651003
-			y	623.1441730575232
+			x	1309.6698708460904
+			y	656.4013131071574
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1805,8 +1805,8 @@ graph
 		label	"79"
 		graphics
 		[
-			x	662.2830953795789
-			y	1486.5129301966838
+			x	823.3809960125191
+			y	1627.7956471264774
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1828,8 +1828,8 @@ graph
 		label	"80"
 		graphics
 		[
-			x	1283.1128247212264
-			y	1238.661455517908
+			x	1496.137634254187
+			y	878.9245764318357
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1851,8 +1851,8 @@ graph
 		label	"81"
 		graphics
 		[
-			x	1078.7591818643275
-			y	1328.104797418919
+			x	1363.0231748501276
+			y	912.8775175156786
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1874,8 +1874,8 @@ graph
 		label	"82"
 		graphics
 		[
-			x	1181.735710440865
-			y	1147.8526472165277
+			x	1521.9939224312952
+			y	744.4777692283124
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1897,8 +1897,8 @@ graph
 		label	"83"
 		graphics
 		[
-			x	1162.1448365866954
-			y	1282.676411695902
+			x	1177.2604450218696
+			y	1167.074103518868
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1920,8 +1920,8 @@ graph
 		label	"84"
 		graphics
 		[
-			x	1086.2345793464747
-			y	319.0128380472795
+			x	889.1498603751821
+			y	822.8211645830283
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1943,8 +1943,8 @@ graph
 		label	"85"
 		graphics
 		[
-			x	302.8788778835037
-			y	2420.5233375655607
+			x	601.7480725218984
+			y	2562.763228060695
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1966,8 +1966,8 @@ graph
 		label	"86"
 		graphics
 		[
-			x	636.020962430144
-			y	1116.1455590007154
+			x	584.5167451186194
+			y	1227.0386609253958
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -1989,8 +1989,8 @@ graph
 		label	"87"
 		graphics
 		[
-			x	846.7475573367378
-			y	850.7628840413453
+			x	1064.3433499459325
+			y	961.8128754751275
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2012,8 +2012,8 @@ graph
 		label	"88"
 		graphics
 		[
-			x	1140.2624188019265
-			y	781.1557275691247
+			x	1450.3134627168126
+			y	402.59982947400954
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2035,8 +2035,8 @@ graph
 		label	"89"
 		graphics
 		[
-			x	2577.0
-			y	390.0
+			x	1282.3117830458766
+			y	1234.247385727554
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2058,8 +2058,8 @@ graph
 		label	"90"
 		graphics
 		[
-			x	1055.3768045288007
-			y	1586.0096181684066
+			x	1197.25504127386
+			y	1323.2603290743739
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2081,8 +2081,8 @@ graph
 		label	"91"
 		graphics
 		[
-			x	891.6097967532168
-			y	1800.4500980574712
+			x	998.3394866713974
+			y	1665.436635847188
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2104,8 +2104,8 @@ graph
 		label	"92"
 		graphics
 		[
-			x	896.2593454547236
-			y	1521.3431750215304
+			x	619.7121928219301
+			y	1619.7111891680265
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2127,8 +2127,8 @@ graph
 		label	"93"
 		graphics
 		[
-			x	1103.4957713791027
-			y	1056.405071856558
+			x	1205.5091255085827
+			y	916.9395807206852
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2150,8 +2150,8 @@ graph
 		label	"94"
 		graphics
 		[
-			x	1291.0030194655471
-			y	1087.4180569271834
+			x	1573.6699832229156
+			y	505.9441518994066
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2173,8 +2173,8 @@ graph
 		label	"95"
 		graphics
 		[
-			x	1043.5379088118007
-			y	1773.1889950981517
+			x	1128.8923768295322
+			y	1450.4499559542098
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2196,8 +2196,8 @@ graph
 		label	"96"
 		graphics
 		[
-			x	541.4774422884768
-			y	1626.5527381430213
+			x	1165.4615885538929
+			y	1061.8800374567968
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2219,8 +2219,8 @@ graph
 		label	"97"
 		graphics
 		[
-			x	713.3250818704017
-			y	1753.238761382062
+			x	1005.4034101442894
+			y	1363.268894893059
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2242,8 +2242,8 @@ graph
 		label	"98"
 		graphics
 		[
-			x	813.465807084024
-			y	1400.9120784033796
+			x	703.4406952102788
+			y	1517.9012732933802
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2265,8 +2265,8 @@ graph
 		label	"99"
 		graphics
 		[
-			x	1256.7360820206904
-			y	779.303989469389
+			x	1634.320293647726
+			y	840.085719743805
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2288,8 +2288,8 @@ graph
 		label	"100"
 		graphics
 		[
-			x	1008.2830718863188
-			y	1943.3537227242573
+			x	1043.2217266858436
+			y	1137.7120411154597
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2311,8 +2311,8 @@ graph
 		label	"101"
 		graphics
 		[
-			x	129.85809249333306
-			y	1460.011110815121
+			x	361.0068581210335
+			y	1268.2404597834488
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2334,8 +2334,8 @@ graph
 		label	"102"
 		graphics
 		[
-			x	2592.0
-			y	15.0
+			x	750.4465467741259
+			y	1026.9862149744104
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2357,8 +2357,8 @@ graph
 		label	"103"
 		graphics
 		[
-			x	335.8364293446998
-			y	915.7570715873399
+			x	110.91483541803927
+			y	1007.2027029916794
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2380,8 +2380,8 @@ graph
 		label	"104"
 		graphics
 		[
-			x	796.6424815876455
-			y	363.2759047164086
+			x	930.7505911721784
+			y	517.8667154894093
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2403,8 +2403,8 @@ graph
 		label	"105"
 		graphics
 		[
-			x	643.0960359033364
-			y	400.0746348263861
+			x	657.0182838173757
+			y	644.8590890770499
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2426,8 +2426,8 @@ graph
 		label	"106"
 		graphics
 		[
-			x	225.14102004278902
-			y	570.5439050657538
+			x	354.0619962471874
+			y	807.5129935139289
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2449,8 +2449,8 @@ graph
 		label	"107"
 		graphics
 		[
-			x	139.86991460478725
-			y	2687.0535189733
+			x	501.9590452425216
+			y	2858.824724620244
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2472,8 +2472,8 @@ graph
 		label	"108"
 		graphics
 		[
-			x	47.9892494683138
-			y	859.6630402655114
+			x	302.5470884951219
+			y	1118.421703322514
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2495,8 +2495,8 @@ graph
 		label	"109"
 		graphics
 		[
-			x	784.9068188308863
-			y	70.68320204362192
+			x	610.4717512035181
+			y	319.56968386355936
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2518,8 +2518,8 @@ graph
 		label	"110"
 		graphics
 		[
-			x	502.4834118618094
-			y	161.78910084508925
+			x	399.47232689909515
+			y	256.57015329250976
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2541,8 +2541,8 @@ graph
 		label	"111"
 		graphics
 		[
-			x	720.4713994419267
-			y	888.9024850903795
+			x	951.6644295977806
+			y	695.3869509762287
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2564,8 +2564,8 @@ graph
 		label	"112"
 		graphics
 		[
-			x	959.8594077706241
-			y	426.8448739047357
+			x	943.4329875752688
+			y	361.1389170125084
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2587,8 +2587,8 @@ graph
 		label	"113"
 		graphics
 		[
-			x	642.4832469341479
-			y	767.3491110998789
+			x	760.0623067029939
+			y	223.69686926955558
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2610,8 +2610,8 @@ graph
 		label	"114"
 		graphics
 		[
-			x	2658.0
-			y	390.0
+			x	609.6516409003086
+			y	1089.188091661972
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2633,8 +2633,8 @@ graph
 		label	"115"
 		graphics
 		[
-			x	2496.0
-			y	15.0
+			x	481.03343969632874
+			y	1147.9855779270442
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2656,8 +2656,8 @@ graph
 		label	"116"
 		graphics
 		[
-			x	484.8035399529905
-			y	1024.581112070017
+			x	800.7116766913987
+			y	574.3108008390866
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2679,8 +2679,8 @@ graph
 		label	"117"
 		graphics
 		[
-			x	739.6739887742741
-			y	568.3040493810505
+			x	1102.2696226075782
+			y	217.48214177366424
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2702,8 +2702,8 @@ graph
 		label	"118"
 		graphics
 		[
-			x	301.1889798215277
-			y	299.5699960859745
+			x	467.1909278448179
+			y	422.61857654830226
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2725,8 +2725,8 @@ graph
 		label	"119"
 		graphics
 		[
-			x	177.6706227413158
-			y	777.3455368597051
+			x	15.0
+			y	684.6055151111696
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2748,8 +2748,8 @@ graph
 		label	"120"
 		graphics
 		[
-			x	1156.5886880425012
-			y	185.71620911114428
+			x	1474.3254923996892
+			y	609.2381431969611
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2771,8 +2771,8 @@ graph
 		label	"121"
 		graphics
 		[
-			x	413.6243157198096
-			y	605.0583116706543
+			x	327.75860489442925
+			y	615.3034290211042
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2794,8 +2794,8 @@ graph
 		label	"122"
 		graphics
 		[
-			x	2497.1783215903283
-			y	228.11709580835185
+			x	596.3634795939095
+			y	950.1669772050286
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2817,8 +2817,8 @@ graph
 		label	"123"
 		graphics
 		[
-			x	49.82296811470246
-			y	600.4896415164603
+			x	164.21835605477372
+			y	600.2293620790311
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2840,8 +2840,8 @@ graph
 		label	"124"
 		graphics
 		[
-			x	1074.4225831171962
-			y	510.1308783414012
+			x	1074.7844194120444
+			y	609.6345137017001
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2863,8 +2863,8 @@ graph
 		label	"125"
 		graphics
 		[
-			x	604.550563203771
-			y	632.5881225343078
+			x	470.1535326980536
+			y	695.4821998681471
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2886,8 +2886,8 @@ graph
 		label	"126"
 		graphics
 		[
-			x	38.839415137920696
-			y	1062.7744943819316
+			x	164.09862166898802
+			y	1233.3255754806034
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2909,8 +2909,8 @@ graph
 		label	"127"
 		graphics
 		[
-			x	1038.8052958603782
-			y	710.8223478867862
+			x	1055.8098223527334
+			y	834.1547954735547
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2932,8 +2932,8 @@ graph
 		label	"128"
 		graphics
 		[
-			x	897.3105539909905
-			y	976.3330259650368
+			x	943.8319749418442
+			y	1038.3724074589459
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2955,8 +2955,8 @@ graph
 		label	"129"
 		graphics
 		[
-			x	927.9768289934465
-			y	276.9262625255202
+			x	775.5242800680734
+			y	388.7079295879031
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -2978,8 +2978,8 @@ graph
 		label	"130"
 		graphics
 		[
-			x	15.0
-			y	1254.4188204803515
+			x	205.27943885350214
+			y	1423.8401168126022
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3001,8 +3001,8 @@ graph
 		label	"131"
 		graphics
 		[
-			x	215.78944329121646
-			y	1051.1972185262723
+			x	262.5135421263701
+			y	962.7219152971259
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3024,8 +3024,8 @@ graph
 		label	"132"
 		graphics
 		[
-			x	363.69690703593324
-			y	441.854180311491
+			x	577.4121500304395
+			y	144.99577411713835
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3047,8 +3047,8 @@ graph
 		label	"133"
 		graphics
 		[
-			x	687.3861066484127
-			y	228.10604423218956
+			x	688.0730006671661
+			y	499.4646419018062
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3070,8 +3070,8 @@ graph
 		label	"134"
 		graphics
 		[
-			x	1263.3339212454578
-			y	518.7470167984244
+			x	1140.377682277203
+			y	728.3479396972496
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3093,8 +3093,8 @@ graph
 		label	"135"
 		graphics
 		[
-			x	978.6892152876575
-			y	112.49775814493603
+			x	809.8700201092043
+			y	724.3789274101905
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3116,8 +3116,8 @@ graph
 		label	"136"
 		graphics
 		[
-			x	323.20538501163173
-			y	743.7686359883692
+			x	127.7616498744444
+			y	813.6080572982598
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3139,8 +3139,8 @@ graph
 		label	"137"
 		graphics
 		[
-			x	198.42142642531508
-			y	1256.0776051460466
+			x	445.4515101473253
+			y	975.7805456730538
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3162,8 +3162,8 @@ graph
 		label	"138"
 		graphics
 		[
-			x	526.6916578230315
-			y	491.28484766200364
+			x	1275.8087206115665
+			y	76.77017552979919
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3185,8 +3185,8 @@ graph
 		label	"139"
 		graphics
 		[
-			x	742.6789683262622
-			y	1187.714547717079
+			x	852.8367049159084
+			y	1310.9061755151588
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3208,8 +3208,8 @@ graph
 		label	"140"
 		graphics
 		[
-			x	522.5395542168892
-			y	874.643851604694
+			x	798.018670058666
+			y	25.657583892257207
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3231,8 +3231,8 @@ graph
 		label	"141"
 		graphics
 		[
-			x	486.4310018052503
-			y	741.6745375341638
+			x	553.0601611294558
+			y	554.9538204000804
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3254,8 +3254,8 @@ graph
 		label	"142"
 		graphics
 		[
-			x	497.4565691205828
-			y	1173.6551611657578
+			x	1090.5562697031432
+			y	15.0
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3277,8 +3277,8 @@ graph
 		label	"143"
 		graphics
 		[
-			x	2593.1783215903283
-			y	228.11709580835185
+			x	740.2075238152883
+			y	885.178266055756
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3300,8 +3300,8 @@ graph
 		label	"144"
 		graphics
 		[
-			x	508.60121708168697
-			y	338.4283700095881
+			x	281.4045634643808
+			y	421.34575718183396
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3323,8 +3323,8 @@ graph
 		label	"145"
 		graphics
 		[
-			x	351.61434710214485
-			y	1071.9201400877498
+			x	515.3182240640554
+			y	825.6398127996774
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3346,8 +3346,8 @@ graph
 		label	"146"
 		graphics
 		[
-			x	620.596197127253
-			y	969.7792649921681
+			x	936.0499681942861
+			y	158.5471959140349
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3369,8 +3369,8 @@ graph
 		label	"147"
 		graphics
 		[
-			x	846.2201763750485
-			y	506.3049259642114
+			x	1183.7662024255005
+			y	346.69214948899446
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3392,8 +3392,8 @@ graph
 		label	"148"
 		graphics
 		[
-			x	805.2428059352372
-			y	705.773510718592
+			x	1066.5199583428948
+			y	458.55489156109434
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3415,8 +3415,8 @@ graph
 		label	"149"
 		graphics
 		[
-			x	352.1561203224171
-			y	1238.0508436454834
+			x	656.3560777070848
+			y	781.7509737535711
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3438,8 +3438,8 @@ graph
 		label	"150"
 		graphics
 		[
-			x	750.2767267839162
-			y	1026.2153784771187
+			x	874.1445671522204
+			y	957.6369664510544
 			w	30.0
 			h	30.0
 			type	"ellipse"
@@ -3469,8 +3469,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1931.2940512851437
+			y	929.9125755153747
 		]
 	]
 	edge
@@ -3487,8 +3488,47 @@ graph
 			text	"0.1"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1961.2070681181463
+			y	1151.8790526828832
+		]
+	]
+	edge
+	[
+		source	27
+		target	0
+		label	"0.141"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.141"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1881.0026281760713
+			y	1097.7791950984213
+		]
+	]
+	edge
+	[
+		source	28
+		target	0
+		label	"0.141"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.141"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1916.3552431322992
+			y	1169.0845268317476
 		]
 	]
 	edge
@@ -3505,8 +3545,28 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1802.9309031055723
+			y	1147.2852429994484
+		]
+	]
+	edge
+	[
+		source	9
+		target	1
+		label	"0.173"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.173"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1578.794449793964
+			y	1426.3481602384159
 		]
 	]
 	edge
@@ -3523,8 +3583,28 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1144.793307639776
+			y	1579.5471432626312
+		]
+	]
+	edge
+	[
+		source	34
+		target	1
+		label	"0.173"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.173"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1383.7514472484086
+			y	1522.1969610207032
 		]
 	]
 	edge
@@ -3541,8 +3621,28 @@ graph
 			text	"0.3"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1278.5114956459884
+			y	1417.8632252204493
+		]
+	]
+	edge
+	[
+		source	37
+		target	1
+		label	"0.173"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.173"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1440.4918530545165
+			y	1507.5223561016808
 		]
 	]
 	edge
@@ -3559,8 +3659,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1193.1231785298203
+			y	1690.7479691415037
 		]
 	]
 	edge
@@ -3577,8 +3678,9 @@ graph
 			text	"0.265"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1167.6754186480707
+			y	1965.5198152450607
 		]
 	]
 	edge
@@ -3595,8 +3697,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1330.821351834956
+			y	1988.3694325108977
 		]
 	]
 	edge
@@ -3613,8 +3716,28 @@ graph
 			text	"0.173"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1669.533782423522
+			y	1743.4067754207758
+		]
+	]
+	edge
+	[
+		source	38
+		target	3
+		label	"0.3"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.3"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1809.2725280210407
+			y	1724.9205961402672
 		]
 	]
 	edge
@@ -3631,8 +3754,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1587.7702653979125
+			y	1848.7808079178362
 		]
 	]
 	edge
@@ -3649,8 +3773,9 @@ graph
 			text	"0.265"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1931.48452680933
+			y	826.4884683046281
 		]
 	]
 	edge
@@ -3667,8 +3792,9 @@ graph
 			text	"0.346"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	2051.2685032076497
+			y	653.064088752371
 		]
 	]
 	edge
@@ -3685,8 +3811,9 @@ graph
 			text	"0.332"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	2066.3168123296423
+			y	433.3620155727284
 		]
 	]
 	edge
@@ -3703,8 +3830,9 @@ graph
 			text	"0.374"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1958.0476658524367
+			y	514.6049131738071
 		]
 	]
 	edge
@@ -3721,8 +3849,9 @@ graph
 			text	"0.3"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1270.8042654369808
+			y	1707.5686225885538
 		]
 	]
 	edge
@@ -3739,8 +3868,9 @@ graph
 			text	"0.458"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1124.9393686314263
+			y	1826.5157397647547
 		]
 	]
 	edge
@@ -3757,8 +3887,9 @@ graph
 			text	"0.224"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1305.1343317741391
+			y	1894.325186307288
 		]
 	]
 	edge
@@ -3775,8 +3906,9 @@ graph
 			text	"0.224"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1319.9480147039337
+			y	1586.7301132409684
 		]
 	]
 	edge
@@ -3793,8 +3925,9 @@ graph
 			text	"0.224"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1446.853505506662
+			y	1195.7015499952079
 		]
 	]
 	edge
@@ -3811,8 +3944,9 @@ graph
 			text	"0.1"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1617.2385992216346
+			y	1265.7244530738296
 		]
 	]
 	edge
@@ -3829,8 +3963,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1460.168327167908
+			y	1297.647687413772
 		]
 	]
 	edge
@@ -3847,8 +3982,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	2335.7729359768027
+			y	1760.4481750990083
 		]
 	]
 	edge
@@ -3865,8 +4001,104 @@ graph
 			text	"0.624"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	2882.9798732562335
+			y	1723.6951398756783
+		]
+	]
+	edge
+	[
+		source	25
+		target	9
+		label	"0.2"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.2"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1692.5800983950471
+			y	1425.962515090684
+		]
+	]
+	edge
+	[
+		source	30
+		target	9
+		label	"0.173"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.173"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1510.7426276707918
+			y	1666.5945716676492
+		]
+	]
+	edge
+	[
+		source	34
+		target	9
+		label	"0"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1668.4068830157298
+			y	1453.3374370328615
+		]
+	]
+	edge
+	[
+		source	37
+		target	9
+		label	"0"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1624.5986845175137
+			y	1453.1844666098095
+		]
+	]
+	edge
+	[
+		source	49
+		target	9
+		label	"0.265"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.265"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1551.5657307930505
+			y	1343.8876099219449
 		]
 	]
 	edge
@@ -3883,8 +4115,9 @@ graph
 			text	"0.346"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1917.14415703831
+			y	647.0926254679441
 		]
 	]
 	edge
@@ -3901,8 +4134,9 @@ graph
 			text	"0.3"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	2055.989962836092
+			y	815.7397472830448
 		]
 	]
 	edge
@@ -3919,8 +4153,9 @@ graph
 			text	"0.1"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1859.3618124155453
+			y	748.8112111325682
 		]
 	]
 	edge
@@ -3937,8 +4172,9 @@ graph
 			text	"0.3"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1359.443534627523
+			y	1606.0794617968836
 		]
 	]
 	edge
@@ -3955,8 +4191,9 @@ graph
 			text	"0.224"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1352.605277624985
+			y	1706.2793384539202
 		]
 	]
 	edge
@@ -3973,8 +4210,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	2025.154818899587
+			y	1794.013708818128
 		]
 	]
 	edge
@@ -3991,8 +4229,9 @@ graph
 			text	"0.412"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1466.3340701212016
+			y	76.75698245965513
 		]
 	]
 	edge
@@ -4009,8 +4248,9 @@ graph
 			text	"0.361"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1811.9392705238008
+			y	212.7057614072164
 		]
 	]
 	edge
@@ -4027,8 +4267,9 @@ graph
 			text	"0.387"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1707.8249842415587
+			y	241.79175441715762
 		]
 	]
 	edge
@@ -4045,8 +4286,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1964.631080855949
+			y	1272.3634765653294
 		]
 	]
 	edge
@@ -4063,8 +4305,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1909.159256406107
+			y	1418.1058455960665
 		]
 	]
 	edge
@@ -4081,8 +4324,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1717.3997268946798
+			y	925.2507478229293
 		]
 	]
 	edge
@@ -4099,8 +4343,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1741.4040045066922
+			y	613.3162717746172
 		]
 	]
 	edge
@@ -4117,8 +4362,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1755.870388702642
+			y	834.0314916006503
 		]
 	]
 	edge
@@ -4135,8 +4381,9 @@ graph
 			text	"0.3"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1825.4378014370516
+			y	1040.6464697399895
 		]
 	]
 	edge
@@ -4153,8 +4400,9 @@ graph
 			text	"0.283"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1980.6235740637246
+			y	1014.1065932936017
 		]
 	]
 	edge
@@ -4171,8 +4419,9 @@ graph
 			text	"0.316"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1628.5295147214651
+			y	1079.4446722439318
 		]
 	]
 	edge
@@ -4189,8 +4438,9 @@ graph
 			text	"0.2"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1518.4281065828452
+			y	1134.558560796247
 		]
 	]
 	edge
@@ -4207,8 +4457,47 @@ graph
 			text	"1.64"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1624.8586820403468
+			y	860.085719743805
+		]
+	]
+	edge
+	[
+		source	34
+		target	25
+		label	"0.2"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.2"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1661.1379750018646
+			y	1609.9213985287909
+		]
+	]
+	edge
+	[
+		source	37
+		target	25
+		label	"0.2"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.2"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1743.7060514100801
+			y	1517.8139841639177
 		]
 	]
 	edge
@@ -4225,8 +4514,9 @@ graph
 			text	"0.224"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1521.9266392519498
+			y	1172.7143198817855
 		]
 	]
 	edge
@@ -4243,8 +4533,28 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1770.7300582067144
+			y	1254.9492058343526
+		]
+	]
+	edge
+	[
+		source	39
+		target	27
+		label	"0.141"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.141"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1710.286251618152
+			y	1177.5350831840608
 		]
 	]
 	edge
@@ -4261,8 +4571,47 @@ graph
 			text	"0.224"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1793.4256021247893
+			y	914.8869755333106
+		]
+	]
+	edge
+	[
+		source	31
+		target	28
+		label	"0.3"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.3"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	2032.1906131194328
+			y	1151.6243167769735
+		]
+	]
+	edge
+	[
+		source	39
+		target	28
+		label	"0.141"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.141"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1725.4721436894924
+			y	1293.1895294622343
 		]
 	]
 	edge
@@ -4279,8 +4628,47 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1525.4057165904774
+			y	1786.801828597898
+		]
+	]
+	edge
+	[
+		source	34
+		target	30
+		label	"0.173"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.173"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1590.8360337938198
+			y	1655.416420830724
+		]
+	]
+	edge
+	[
+		source	37
+		target	30
+		label	"0.173"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.173"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1424.7378129211208
+			y	1646.4700959319393
 		]
 	]
 	edge
@@ -4297,8 +4685,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1370.1496824643466
+			y	1772.360297268544
 		]
 	]
 	edge
@@ -4315,8 +4704,9 @@ graph
 			text	"0.316"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	2089.044828930723
+			y	984.839850837214
 		]
 	]
 	edge
@@ -4333,8 +4723,9 @@ graph
 			text	"0.346"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1623.7974952105444
+			y	211.4783205540965
 		]
 	]
 	edge
@@ -4351,8 +4742,47 @@ graph
 			text	"0.346"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1676.5245992010925
+			y	513.5785547809822
+		]
+	]
+	edge
+	[
+		source	37
+		target	34
+		label	"0"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1538.1189642063487
+			y	1524.601301750101
+		]
+	]
+	edge
+	[
+		source	49
+		target	34
+		label	"0.265"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.265"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1609.135328721117
+			y	1539.593503549054
 		]
 	]
 	edge
@@ -4369,8 +4799,28 @@ graph
 			text	"0.224"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1464.3939883885646
+			y	1339.097944176464
+		]
+	]
+	edge
+	[
+		source	49
+		target	37
+		label	"0.265"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.265"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1477.8205621003763
+			y	1415.2711379212687
 		]
 	]
 	edge
@@ -4387,8 +4837,9 @@ graph
 			text	"0.2"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1761.2288207699337
+			y	1914.1916965673224
 		]
 	]
 	edge
@@ -4405,8 +4856,9 @@ graph
 			text	"0.224"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1587.8670437128442
+			y	1938.6174211912971
 		]
 	]
 	edge
@@ -4423,8 +4875,9 @@ graph
 			text	"0.361"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1871.6302588079882
+			y	495.53595537050944
 		]
 	]
 	edge
@@ -4441,8 +4894,9 @@ graph
 			text	"0.265"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1317.161913540873
+			y	441.06513352240205
 		]
 	]
 	edge
@@ -4459,8 +4913,9 @@ graph
 			text	"0.265"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	606.1820960315025
+			y	1363.74288990089
 		]
 	]
 	edge
@@ -4477,8 +4932,9 @@ graph
 			text	"0.316"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	579.0009532406077
+			y	1393.923378457992
 		]
 	]
 	edge
@@ -4495,8 +4951,9 @@ graph
 			text	"0.387"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	587.0516251356829
+			y	1578.68094538257
 		]
 	]
 	edge
@@ -4513,8 +4970,9 @@ graph
 			text	"0.316"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1266.0218332817408
+			y	780.6154629298775
 		]
 	]
 	edge
@@ -4531,8 +4989,28 @@ graph
 			text	"0.283"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1084.3433499459325
+			y	941.7103756637865
+		]
+	]
+	edge
+	[
+		source	80
+		target	53
+		label	"0.3"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.3"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1351.144460878796
+			y	1111.8623483700776
 		]
 	]
 	edge
@@ -4549,8 +5027,9 @@ graph
 			text	"0.2"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1320.1735359031707
+			y	1163.8804678222766
 		]
 	]
 	edge
@@ -4567,8 +5046,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	421.91015919656934
+			y	1634.7525889149833
 		]
 	]
 	edge
@@ -4585,8 +5065,9 @@ graph
 			text	"0.436"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	517.2939529222044
+			y	1772.9548270509908
 		]
 	]
 	edge
@@ -4603,8 +5084,9 @@ graph
 			text	"0.3"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	714.5815258440299
+			y	2228.000559626146
 		]
 	]
 	edge
@@ -4621,8 +5103,9 @@ graph
 			text	"0.374"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	779.053161883256
+			y	1769.1860074634333
 		]
 	]
 	edge
@@ -4639,8 +5122,9 @@ graph
 			text	"0.316"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	943.5008856279152
+			y	1750.3899529346218
 		]
 	]
 	edge
@@ -4657,8 +5141,9 @@ graph
 			text	"0.316"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	892.3369955632928
+			y	1699.7752355675832
 		]
 	]
 	edge
@@ -4675,8 +5160,9 @@ graph
 			text	"0.374"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	597.8377740979547
+			y	1188.3374890503958
 		]
 	]
 	edge
@@ -4693,8 +5179,9 @@ graph
 			text	"0.458"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	735.9428777001526
+			y	1159.8405601449927
 		]
 	]
 	edge
@@ -4711,8 +5198,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1601.7843731898286
+			y	549.8189737979361
 		]
 	]
 	edge
@@ -4729,8 +5217,9 @@ graph
 			text	"0.387"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1636.0575968713133
+			y	801.384547868805
 		]
 	]
 	edge
@@ -4747,8 +5236,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	501.75874240442386
+			y	1368.716264785649
 		]
 	]
 	edge
@@ -4765,8 +5255,9 @@ graph
 			text	"0.316"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	389.69026840739366
+			y	1579.8497511630264
 		]
 	]
 	edge
@@ -4783,8 +5274,9 @@ graph
 			text	"0.387"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1118.71372292146
+			y	1274.8206947057224
 		]
 	]
 	edge
@@ -4801,8 +5293,9 @@ graph
 			text	"0.361"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1520.0184992883987
+			y	454.7315979366355
 		]
 	]
 	edge
@@ -4819,8 +5312,9 @@ graph
 			text	"0.332"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	788.773566963476
+			y	1541.048276686482
 		]
 	]
 	edge
@@ -4837,8 +5331,9 @@ graph
 			text	"0.3"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	964.7217695192894
+			y	1353.107352884656
 		]
 	]
 	edge
@@ -4855,8 +5350,9 @@ graph
 			text	"0.592"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1447.0748615163884
+			y	422.59982947400954
 		]
 	]
 	edge
@@ -4873,8 +5369,9 @@ graph
 			text	"0.49"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1275.2224168828104
+			y	814.7147713770734
 		]
 	]
 	edge
@@ -4891,8 +5388,9 @@ graph
 			text	"0.224"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	713.5059880485364
+			y	1756.7759820940814
 		]
 	]
 	edge
@@ -4909,8 +5407,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	693.3988583525354
+			y	1727.0332651312397
 		]
 	]
 	edge
@@ -4927,8 +5426,9 @@ graph
 			text	"0.447"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1490.2962824449787
+			y	898.9245764318357
 		]
 	]
 	edge
@@ -4945,8 +5445,9 @@ graph
 			text	"0.424"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1272.9955113211465
+			y	1121.511755611355
 		]
 	]
 	edge
@@ -4963,8 +5464,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	771.2547532622248
+			y	1167.4943307532408
 		]
 	]
 	edge
@@ -4981,8 +5483,9 @@ graph
 			text	"0.316"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	829.2999352630918
+			y	1127.7379522153224
 		]
 	]
 	edge
@@ -4999,8 +5502,9 @@ graph
 			text	"0.2"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	667.8110331335208
+			y	2286.701731501146
 		]
 	]
 	edge
@@ -5017,8 +5521,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1308.1432674646637
+			y	588.0276098657544
 		]
 	]
 	edge
@@ -5035,8 +5540,9 @@ graph
 			text	"0.51"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1249.0932335328168
+			y	431.23787704166733
 		]
 	]
 	edge
@@ -5053,8 +5559,9 @@ graph
 			text	"0.265"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1396.2841658418126
+			y	382.2374773782918
 		]
 	]
 	edge
@@ -5071,8 +5578,9 @@ graph
 			text	"0.173"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1311.8598207173297
+			y	923.1018551304315
 		]
 	]
 	edge
@@ -5089,8 +5597,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1287.264657811063
+			y	1049.664287948583
 		]
 	]
 	edge
@@ -5107,8 +5616,9 @@ graph
 			text	"0.265"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1239.1897960259166
+			y	1003.3443154690839
 		]
 	]
 	edge
@@ -5125,8 +5635,9 @@ graph
 			text	"0.424"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	705.9072482663643
+			y	1277.4229967529202
 		]
 	]
 	edge
@@ -5143,8 +5654,9 @@ graph
 			text	"0.224"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	800.8477257988518
+			y	1313.3329091962203
 		]
 	]
 	edge
@@ -5161,8 +5673,9 @@ graph
 			text	"0.346"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1166.1049790832822
+			y	1187.074103518868
 		]
 	]
 	edge
@@ -5179,8 +5692,9 @@ graph
 			text	"0.332"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	892.5349081317377
+			y	1488.9813258678312
 		]
 	]
 	edge
@@ -5197,8 +5711,9 @@ graph
 			text	"0.436"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1308.40295094613
+			y	530.2178849392718
 		]
 	]
 	edge
@@ -5215,8 +5730,9 @@ graph
 			text	"0.361"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1163.0617394530923
+			y	506.34384772873227
 		]
 	]
 	edge
@@ -5233,8 +5749,9 @@ graph
 			text	"0.361"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1210.1967459143457
+			y	548.2266683219169
 		]
 	]
 	edge
@@ -5251,8 +5768,9 @@ graph
 			text	"0.265"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	440.56446385761836
+			y	1354.8540878080964
 		]
 	]
 	edge
@@ -5269,8 +5787,9 @@ graph
 			text	"0.2"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	493.94210668764913
+			y	1474.3788991968102
 		]
 	]
 	edge
@@ -5287,8 +5806,9 @@ graph
 			text	"0.5"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1202.219320033187
+			y	702.0661764513392
 		]
 	]
 	edge
@@ -5305,8 +5825,9 @@ graph
 			text	"0.412"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1285.0902084389456
+			y	617.7001412321574
 		]
 	]
 	edge
@@ -5323,8 +5844,9 @@ graph
 			text	"0.2"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	782.6993553875191
+			y	1627.0017643293281
 		]
 	]
 	edge
@@ -5341,8 +5863,9 @@ graph
 			text	"0.436"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	815.0304573650452
+			y	1332.838074394011
 		]
 	]
 	edge
@@ -5359,8 +5882,9 @@ graph
 			text	"0.346"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1467.2135996508312
+			y	833.6772039708271
 		]
 	]
 	edge
@@ -5377,8 +5901,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1460.823317705575
+			y	754.5277322620636
 		]
 	]
 	edge
@@ -5395,8 +5920,9 @@ graph
 			text	"0.648"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1531.2564420937322
+			y	525.9441518994066
 		]
 	]
 	edge
@@ -5413,8 +5939,47 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1160.6705053720232
+			y	993.9520800408127
+		]
+	]
+	edge
+	[
+		source	99
+		target	82
+		label	"0.265"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.265"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1063.2217266858436
+			y	1123.3920007176794
+		]
+	]
+	edge
+	[
+		source	101
+		target	83
+		label	"0.361"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.361"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	875.5624894382698
+			y	842.8211645830283
 		]
 	]
 	edge
@@ -5431,8 +5996,9 @@ graph
 			text	"0.332"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	909.1498603751821
+			y	815.3002439962454
 		]
 	]
 	edge
@@ -5449,8 +6015,28 @@ graph
 			text	"0.557"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	831.386538745537
+			y	793.3504884801978
+		]
+	]
+	edge
+	[
+		source	142
+		target	83
+		label	"0.361"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.361"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	835.1205635001821
+			y	812.4933139426729
 		]
 	]
 	edge
@@ -5467,8 +6053,47 @@ graph
 			text	"0.735"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	554.6743496041439
+			y	2582.763228060695
+		]
+	]
+	edge
+	[
+		source	95
+		target	88
+		label	"0.173"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.173"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1269.0646502486104
+			y	1186.254044698845
+		]
+	]
+	edge
+	[
+		source	96
+		target	88
+		label	"0.173"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.173"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1025.4034101442894
+			y	1353.9501799828852
 		]
 	]
 	edge
@@ -5485,8 +6110,9 @@ graph
 			text	"0.3"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1164.655251759961
+			y	1383.9126617231498
 		]
 	]
 	edge
@@ -5503,8 +6129,9 @@ graph
 			text	"0.265"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1074.8630799545322
+			y	1464.683586155605
 		]
 	]
 	edge
@@ -5521,8 +6148,28 @@ graph
 			text	"0.346"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	686.9926897937064
+			y	1537.9012732933802
+		]
+	]
+	edge
+	[
+		source	99
+		target	92
+		label	"0.265"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.265"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	1126.9012501471839
+			y	958.8821958848351
 		]
 	]
 	edge
@@ -5539,8 +6186,9 @@ graph
 			text	"0.173"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1111.4559583476482
+			y	1368.0977069701369
 		]
 	]
 	edge
@@ -5557,8 +6205,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1085.5628352674048
+			y	1212.329044204656
 		]
 	]
 	edge
@@ -5575,8 +6224,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1002.7035417811276
+			y	1157.7120411154597
 		]
 	]
 	edge
@@ -5593,8 +6243,47 @@ graph
 			text	"0.424"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	332.7523459568308
+			y	1229.5392879084488
+		]
+	]
+	edge
+	[
+		source	113
+		target	101
+		label	"0.265"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.265"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	656.7994766036361
+			y	1034.6236194839603
+		]
+	]
+	edge
+	[
+		source	121
+		target	101
+		label	"0.316"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.316"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	670.2901619836516
+			y	1008.9747916085435
 		]
 	]
 	edge
@@ -5611,8 +6300,28 @@ graph
 			text	"0"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	731.3182697916473
+			y	909.8941783087558
+		]
+	]
+	edge
+	[
+		source	149
+		target	101
+		label	"0.332"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.332"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	826.762967995748
+			y	984.2006760827255
 		]
 	]
 	edge
@@ -5629,8 +6338,9 @@ graph
 			text	"0.4"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	287.07696426942925
+			y	632.7480292766006
 		]
 	]
 	edge
@@ -5647,8 +6357,9 @@ graph
 			text	"0.387"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	102.28535357851828
+			y	1115.1957501472386
 		]
 	]
 	edge
@@ -5665,8 +6376,9 @@ graph
 			text	"0.458"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	130.91483541803927
+			y	1006.3344751340192
 		]
 	]
 	edge
@@ -5683,8 +6395,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	934.3912816858362
+			y	433.19337126173764
 		]
 	]
 	edge
@@ -5701,8 +6414,9 @@ graph
 			text	"0.332"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	845.4357464744326
+			y	475.1936722149544
 		]
 	]
 	edge
@@ -5719,8 +6433,9 @@ graph
 			text	"0.539"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	901.0409562659942
+			y	568.6226174998213
 		]
 	]
 	edge
@@ -5737,8 +6452,9 @@ graph
 			text	"0.3"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	659.1251988669418
+			y	519.4646419018062
 		]
 	]
 	edge
@@ -5755,8 +6471,9 @@ graph
 			text	"0.361"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	599.931396389431
+			y	576.7879226365586
 		]
 	]
 	edge
@@ -5773,8 +6490,9 @@ graph
 			text	"0.529"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	350.74816770994374
+			y	827.5129935139289
 		]
 	]
 	edge
@@ -5791,8 +6509,9 @@ graph
 			text	"0.819"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	421.78650565542284
+			y	442.61857654830226
 		]
 	]
 	edge
@@ -5809,8 +6528,9 @@ graph
 			text	"0.265"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	293.16222931072184
+			y	778.174066979134
 		]
 	]
 	edge
@@ -5827,8 +6547,9 @@ graph
 			text	"0.548"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	256.3499037095322
+			y	790.5270231741889
 		]
 	]
 	edge
@@ -5845,8 +6566,9 @@ graph
 			text	"0.436"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	238.5177916201219
+			y	1116.319324455802
 		]
 	]
 	edge
@@ -5863,8 +6585,9 @@ graph
 			text	"0.265"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	272.4643916325378
+			y	982.7219152971259
 		]
 	]
 	edge
@@ -5881,8 +6604,9 @@ graph
 			text	"0.557"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	727.778628689349
+			y	350.0067577129031
 		]
 	]
 	edge
@@ -5899,8 +6623,9 @@ graph
 			text	"0.86"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	415.2556096484755
+			y	276.57015329250976
 		]
 	]
 	edge
@@ -5917,8 +6642,9 @@ graph
 			text	"0.632"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	261.70600010185115
+			y	382.64458530683396
 		]
 	]
 	edge
@@ -5935,8 +6661,9 @@ graph
 			text	"0.374"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	910.7157345139112
+			y	643.8416589481538
 		]
 	]
 	edge
@@ -5953,8 +6680,9 @@ graph
 			text	"0.529"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	947.5060429961316
+			y	877.4839039049291
 		]
 	]
 	edge
@@ -5971,8 +6699,9 @@ graph
 			text	"0.224"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1042.9592253070787
+			y	507.1371146997426
 		]
 	]
 	edge
@@ -5989,8 +6718,9 @@ graph
 			text	"0.374"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	817.5375771505077
+			y	357.5212871247366
 		]
 	]
 	edge
@@ -6007,8 +6737,9 @@ graph
 			text	"0.374"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	967.0886787514205
+			y	338.970219383771
 		]
 	]
 	edge
@@ -6025,8 +6756,9 @@ graph
 			text	"0.346"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1012.4906614678948
+			y	442.72608792069997
 		]
 	]
 	edge
@@ -6043,8 +6775,9 @@ graph
 			text	"0.424"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	780.0623067029939
+			y	223.33365508873288
 		]
 	]
 	edge
@@ -6061,8 +6794,9 @@ graph
 			text	"0.173"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	767.2836453500545
+			y	186.0191620632456
 		]
 	]
 	edge
@@ -6079,8 +6813,28 @@ graph
 			text	"0.346"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	552.5123186112763
+			y	482.673665278667
+		]
+	]
+	edge
+	[
+		source	142
+		target	113
+		label	"0.265"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.265"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	597.0555585769828
+			y	1036.9948529015971
 		]
 	]
 	edge
@@ -6097,8 +6851,9 @@ graph
 			text	"0.49"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	509.94539533319244
+			y	1098.3946594352062
 		]
 	]
 	edge
@@ -6115,8 +6870,9 @@ graph
 			text	"0.374"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	885.1994100224512
+			y	314.76175384291275
 		]
 	]
 	edge
@@ -6133,8 +6889,9 @@ graph
 			text	"0.3"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	676.3560777070848
+			y	753.0108106599283
 		]
 	]
 	edge
@@ -6151,8 +6908,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1122.2696226075782
+			y	201.26539662950893
 		]
 	]
 	edge
@@ -6169,8 +6927,9 @@ graph
 			text	"0.361"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1098.4274867940132
+			y	243.3910353166978
 		]
 	]
 	edge
@@ -6187,8 +6946,9 @@ graph
 			text	"0.412"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	528.0177951460709
+			y	164.99577411713835
 		]
 	]
 	edge
@@ -6205,8 +6965,9 @@ graph
 			text	"0.412"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	110.18905917977372
+			y	592.8372751266884
 		]
 	]
 	edge
@@ -6223,8 +6984,9 @@ graph
 			text	"0.3"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	429.4718920730536
+			y	684.2207354208157
 		]
 	]
 	edge
@@ -6241,8 +7003,9 @@ graph
 			text	"0.265"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	361.77026878647655
+			y	606.193014345168
 		]
 	]
 	edge
@@ -6259,8 +7022,28 @@ graph
 			text	"0.224"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	290.10250416620227
+			y	439.03908892022815
+		]
+	]
+	edge
+	[
+		source	142
+		target	121
+		label	"0.316"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.316"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	673.3390999068075
+			y	881.313805375337
 		]
 	]
 	edge
@@ -6277,8 +7060,9 @@ graph
 			text	"0.173"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1037.48441961321
+			y	629.6345137017001
 		]
 	]
 	edge
@@ -6295,8 +7079,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1128.914321180467
+			y	378.230012174469
 		]
 	]
 	edge
@@ -6313,8 +7098,9 @@ graph
 			text	"0.346"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	175.45165447283398
+			y	1267.146863945832
 		]
 	]
 	edge
@@ -6331,8 +7117,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	990.2769495278985
+			y	953.6692092997372
 		]
 	]
 	edge
@@ -6349,8 +7136,9 @@ graph
 			text	"0.141"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	899.4366887237348
+			y	1171.3377212989606
 		]
 	]
 	edge
@@ -6367,8 +7155,9 @@ graph
 			text	"0.283"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	894.1445671522204
+			y	962.106534762465
 		]
 	]
 	edge
@@ -6385,8 +7174,9 @@ graph
 			text	"0.1"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	683.1829590475709
+			y	460.7634700268062
 		]
 	]
 	edge
@@ -6403,8 +7193,9 @@ graph
 			text	"0.539"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	111.80604434648879
+			y	833.6080572982598
 		]
 	]
 	edge
@@ -6421,8 +7212,9 @@ graph
 			text	"0.436"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	445.8074451493163
+			y	883.1869059172051
 		]
 	]
 	edge
@@ -6439,8 +7231,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	602.3267808320848
+			y	781.4495524543382
 		]
 	]
 	edge
@@ -6457,8 +7250,9 @@ graph
 			text	"0.361"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	882.0206713192861
+			y	139.29219884935335
 		]
 	]
 	edge
@@ -6475,8 +7269,9 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	484.07754116429817
+			y	786.9386409246774
 		]
 	]
 	edge
@@ -6493,8 +7288,28 @@ graph
 			text	"0.245"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	1024.3969852814448
+			y	76.46661766976204
+		]
+	]
+	edge
+	[
+		source	149
+		target	142
+		label	"0.332"
+		graphics
+		[
+			fill	"#000000"
+		]
+		LabelGraphics
+		[
+			text	"0.332"
+			fontSize	12
+			fontName	"Dialog"
+			model	"free"
+			x	837.1753577663942
+			y	918.9357945760544
 		]
 	]
 	edge
@@ -6511,8 +7326,9 @@ graph
 			text	"0.361"
 			fontSize	12
 			fontName	"Dialog"
-			model	"six_pos"
-			position	"tail"
+			model	"free"
+			x	966.542106674542
+			y	306.91025717220623
 		]
 	]
 ]
