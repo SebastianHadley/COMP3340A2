@@ -6,21 +6,38 @@ main <- function() {
   library('cccd')
   library('igraph')
   library('Boruta')
-  datafile <- read.csv('../Datasets/xAPI-edu-Data.csv')
+  # datafile <- read.csv('../Datasets/xAPI-edu-Data.csv')
   # pearsons <- question_1a(datafile)
   # question_1b(datafile)
-  datafile <- read.csv("../Datasets/AlzheimersDisease.csv", header = TRUE)
+  # datafile <- read.csv("../Datasets/AlzheimersDisease.csv", header = TRUE)
   datafile2 <- read.csv("../Datasets/AlzheimersDisease.csv", header = FALSE)
   
   # question_2(datafile)
-  question_3(datafile2)
+  question_4()
+  # question_3(datafile2)
   # generate_sheetAlzheimersCSV()
   # # generate_alzheimers_matrixes(datafile)
   # get_relative_neighbourhoods()
   # question_3(datafile) 
 }
- 
+
+question_4 <- function(){
+  datafile <- read.csv("../Datasets/Iris.csv", header = TRUE)
+  rownames(datafile) <- datafile[,1]
+  datafile[,1] <- NULL
+  checking <- datafile[1]
+  class <-  datafile[5]
+  datafile[,5] <- NULL
+  # generate_distances(datafile,"IrisRowsMatrix","IrisAttributesMatrix")
+  datafile[,1] <- class
+  datafile[,5] <- checking
+  colnames(datafile)[1] <- "CLASS"
+  colnames(datafile)[5] <- "SepalLengthCm"
+  print(datafile)
+  feature_selection(datafile,"IrisFeatures",FALSE)
+}
 question_2 <- function(datafile){
+
   rownames(datafile) <- datafile[,1]
   datafile[,1] <- NULL
   print(datafile)
@@ -33,11 +50,10 @@ question_3 <- function(datafile){
   #prints classes that are important in determining Alzheimers
   proteins <- feature_selection(datafile,"proteins",TRUE)
   #uses those printed classes to do the classification
-  generate_sheetAlzheimersCSV()
+  # generate_sheetAlzheimersCSV()
 }
 
-add_rownames <- function(datafile)
-{
+add_rownames <- function(datafile){
   rownames(datafile) <- datafile[,1]
   datafile[,1] <- NULL
   rownames(datafile)[1]<- "CLASS"
@@ -47,15 +63,21 @@ add_rownames <- function(datafile)
 feature_selection <- function(data,filename, alzheimers){
   set.seed(111)
   bor <- Boruta(as.factor(data[,1]), x = data)
+  print(bor)
   bor <- TentativeRoughFix(bor, averageOver = Inf)
   x <- getSelectedAttributes(bor, withTentative = FALSE)
   x <- as.data.frame(x)
+  print(x)
   a = 1
-  while(a <= nrow(x))
+  if(alzheimers == TRUE)
   {
-    x[a,1] <- gsub(".","-",x[a,1], fixed = TRUE)
-    a = a + 1
+    while(a <= nrow(x))
+    {
+      x[a,1] <- gsub(".","-",x[a,1], fixed = TRUE)
+      a = a + 1
+    }
   }
+  
   matrix1 <- matrix(data = data[,colnames(data) %in% x[,1]], nrow = nrow(data), ncol = nrow(x))
   colnames(matrix1) <- x[,1]
   rownames(matrix1) <- rownames(data)
@@ -81,29 +103,9 @@ fix_proteins <-function(matrix){
   matrix
 }
 
-generate_sheetAlzheimersCSV <- function(){
-  test_ad <- read.csv("../Datasets/TestSetAD.csv", header = FALSE)
-  test_ad <- add_rownames(test_ad)
-  test_ad <- t(test_ad)
-  test_ad <- fix_proteins(test_ad)
-  write.csv(test_ad,"testAD.csv")
-  test_mci <- read.csv("../Datasets/TestSetMCI.csv", header = TRUE)
-  colnames(test_mci) <- NULL
-  temp <- test_mci[1,]
-  temp[1] <- "CLASS"
-  test_mci[1,] <- temp
-  x <- nrow(test_mci) - 121
-  test_mci <- head(test_mci, -x)
-  test_mci <- t(test_mci)
-  colnames(test_mci) <-  test_mci[1,]
-  test_mci <- test_mci[-c(1),]
-  test_mci <- fix_proteins(test_mci)
-  write.csv(test_mci,"testMCI.csv")
-}
 
 #creates RNG graphs with a matrix and a title given
-relative_neighbourhoods <- function(matrix,title)
-{
+relative_neighbourhoods <- function(matrix,title){
   matrix1 <- as.matrix(matrix)
   rng_graph <- rng(dx = matrix1,r = 1, algorithm = 'cover_tree')
   rng_graph <- as.undirected(rng_graph)
@@ -116,25 +118,25 @@ relative_neighbourhoods <- function(matrix,title)
   write_graph(rng_graph, name, format = 'gml')
 }
 
-generate_distances <- function(datafile, filename1,filename2)
-{
-  row_matrix <- get_distance_cols(datafile)
-  cols_matrix <- get_distance_rows(datafile)
+generate_distances <- function(datafile, filename1,filename2){
+  row_matrix <- get_distance_rows(datafile)
+  cols_matrix <- get_distance_cols(datafile)
   name1 = paste("Results/",filename1,"distancematrix.csv", sep = "")
   name2 = paste("Results/",filename2,"distancematrix.csv", sep = "")
   write.csv(row_matrix,file = name1)
   write.csv(cols_matrix,file = name2)
-  # relative_neighbourhoods(row_matrix,filename1)
-  # relative_neighbourhoods(cols_matrix,filename2)
+  relative_neighbourhoods(row_matrix,filename1)
+  relative_neighbourhoods(cols_matrix,filename2)
   
   rows_graph <- mst(graph_from_adjacency_matrix(row_matrix, mode = "undirected",weighted = TRUE))
   cols_graph <- mst(graph_from_adjacency_matrix(cols_matrix, mode = "undirected",weighted = TRUE))
-
+  
   V(rows_graph)$label <- colnames(row_matrix)
   E(rows_graph)$label <- round(E(rows_graph)$weight, 3)
   V(cols_graph)$label <- colnames(cols_matrix)
   E(cols_graph)$label <- round(E(cols_graph)$weight, 3)
-   
+  print(sum(E(rows_graph)$weight))
+  print(sum(E(cols_graph)$weight))
   name1 = paste("Results/",filename1,"MST.gml", sep = "")
   name2 = paste("Results/",filename2,"MST.gml", sep = "")
    
@@ -186,6 +188,26 @@ get_distance_cols <- function(datafile)
   }
   print("distance col done")
   return(columns)
+}
+
+generate_sheetAlzheimersCSV <- function(){
+  test_ad <- read.csv("../Datasets/TestSetAD.csv", header = FALSE)
+  test_ad <- add_rownames(test_ad)
+  test_ad <- t(test_ad)
+  test_ad <- fix_proteins(test_ad)
+  write.csv(test_ad,"testAD.csv")
+  test_mci <- read.csv("../Datasets/TestSetMCI.csv", header = TRUE)
+  colnames(test_mci) <- NULL
+  temp <- test_mci[1,]
+  temp[1] <- "CLASS"
+  test_mci[1,] <- temp
+  x <- nrow(test_mci) - 121
+  test_mci <- head(test_mci, -x)
+  test_mci <- t(test_mci)
+  colnames(test_mci) <-  test_mci[1,]
+  test_mci <- test_mci[-c(1),]
+  test_mci <- fix_proteins(test_mci)
+  write.csv(test_mci,"testMCI.csv")
 }
 
 question_1a <- function(datafile){
