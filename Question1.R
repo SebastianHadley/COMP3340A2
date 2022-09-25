@@ -2,24 +2,85 @@
 # install.packages('cccd')
 # install.packages('caret')
 # install.packages('Boruta')
+# install.packages('arules')
+# install.packages('arulesViz')
+# install.packages("TraMineR", dependencies=TRUE)
+
 main <- function() {
+  library('TraMineR')
   library('cccd')
+  library('arules')
   library('igraph')
   library('Boruta')
+  library('arulesViz')
   # datafile <- read.csv('../Datasets/xAPI-edu-Data.csv')
   # pearsons <- question_1a(datafile)
+  # plot(pearsons)
   # question_1b(datafile)
   # datafile <- read.csv("../Datasets/AlzheimersDisease.csv", header = TRUE)
-  datafile2 <- read.csv("../Datasets/AlzheimersDisease.csv", header = FALSE)
+  # datafile2 <- read.csv("../Datasets/AlzheimersDisease.csv", header = FALSE)
   
   # question_2(datafile)
-  question_4()
+  # question_4()
   # question_3(datafile2)
   # generate_sheetAlzheimersCSV()
   # # generate_alzheimers_matrixes(datafile)
   # get_relative_neighbourhoods()
   # question_3(datafile) 
+  question_5()
+
 }
+question_5 <- function(){
+   datafile <- read.csv("../Datasets/USPresidency.csv")
+   smaller <- datafile[,c(2:7)]
+   smaller[,6] <-datafile[,"Target"]
+   colnames(smaller)[6] <- "Class"
+   test <- smaller
+   # print(smaller)
+   a = 1
+   i = 1 
+   while(a <= nrow(test))
+   {
+     while( i <= ncol(test))
+     {
+       print(test[a,i])
+       if(test[a,i] == 1)
+       {
+         test[a,i] = "1"
+       }
+       if(test[a,i] == 0)
+       {
+         test[a,i] <- "0"
+       }
+       i = i+ 1
+     }
+     a = a +1
+     i = 1
+   }
+   # colnames(test) <- paste0("False",colnames(test))
+   # print(test)
+   # smaller <- cbind(smaller,test)
+   print(smaller)
+   good <- test[1:6,]
+   bad <- test[20:25,]
+   # print(good)
+   
+   lpattern(good,bad,2)
+ }
+
+lpattern <- function(set1,set2,l){
+  data <- rbind(set1,set2)
+  print(data)
+  x <- apriori(data, parameter = list(support =0.05 , confidence = 0.8,maxlen = 15),minlen = 2)
+  subset.rules <- which(colSums(is.subset(x, x)) > 1) # get subset rules in vector
+  x <- x[subset.rules] # remove subset rules.
+  x <- x[order(labels(rhs(x)),coverage(x))]
+  print(inspect(x))
+  print(data)
+}
+
+
+
 
 question_4 <- function(){
   datafile <- read.csv("../Datasets/Iris.csv", header = TRUE)
@@ -39,6 +100,7 @@ question_4 <- function(){
   # print(datafile)
   # feature_selection(datafile,"IrisFeatures",FALSE)
 }
+
 question_2 <- function(datafile){
 
   rownames(datafile) <- datafile[,1]
@@ -46,6 +108,8 @@ question_2 <- function(datafile){
   print(datafile)
   generate_distances(datafile,"samplesMatrix","ProteinsMatrix")
 }
+
+
 question_3 <- function(datafile){
   datafile <- add_rownames(datafile)
   datafile <- t(datafile)
@@ -55,6 +119,8 @@ question_3 <- function(datafile){
   #uses those printed classes to do the classification
   # generate_sheetAlzheimersCSV()
 }
+
+
 split_data <- function(datafile)
 {
   set.seed(11)
@@ -62,9 +128,8 @@ split_data <- function(datafile)
   write.csv(datafile[1:50,],"Results/TrainingSet.csv")
   write.csv(datafile[51:100,],"Results/TestSet1.csv")
   write.csv(datafile[101:150,],"Results/TestSet2.csv")
-  
-  
 }
+
 add_rownames <- function(datafile){
   rownames(datafile) <- datafile[,1]
   datafile[,1] <- NULL
@@ -137,8 +202,8 @@ generate_distances <- function(datafile, filename1,filename2){
   name2 = paste("Results/",filename2,"distancematrix.csv", sep = "")
   write.csv(row_matrix,file = name1)
   write.csv(cols_matrix,file = name2)
-  relative_neighbourhoods(row_matrix,filename1)
-  relative_neighbourhoods(cols_matrix,filename2)
+  # relative_neighbourhoods(row_matrix,filename1)
+  # relative_neighbourhoods(cols_matrix,filename2)
   
   rows_graph <- mst(graph_from_adjacency_matrix(row_matrix, mode = "undirected",weighted = TRUE))
   cols_graph <- mst(graph_from_adjacency_matrix(cols_matrix, mode = "undirected",weighted = TRUE))
@@ -180,9 +245,7 @@ get_distance_rows <- function(datafile)
 }
 
 #generates euclidean distance matrix of columns
-get_distance_cols <- function(datafile)
-{
-  
+get_distance_cols <- function(datafile){
   columns <- matrix(nrow = ncol(datafile), ncol = ncol(datafile))
   colnames(columns) <- colnames(datafile)
   rownames(columns) <- colnames(datafile)
@@ -229,13 +292,17 @@ question_1a <- function(datafile){
 }
 
 question_1b <- function(datafile){
-  
   gender_topic <- chisq.test(datafile$gender, datafile$Topic)
   print(gender_topic)
+  a <- cor(datafile$raisedhand, datafile$VisITedResources, method = "pearson")
+  b <- cor(datafile$raisedhand, datafile$AnnouncementsView, method = "pearson")
+  c <- cor(datafile$raisedhand, datafile$Discussion, method = "pearson")
+  print(a)
+  print(b)
+  print(c)
   gender_performance <- chisq.test(datafile$gender, datafile$Class)
   print(gender_performance)
   #did the code below 3 times and just looked at the general results of the means  
-  
   gender_contribution <- split(X <- datafile[ names(datafile) %in% c("raisedhands","Discussion","VisITedResources","gender")], X$gender)
   i = 1
   while(i < 3){
@@ -244,9 +311,8 @@ question_1b <- function(datafile){
     print(X)
     i = i +1
   }
-  
-  
-  #determines mean values for class contribution by results
+
+  # determines mean values for class contribution by results
   numeric_columns <- datafile[ names(datafile) %in% c("raisedhands","AnnouncementsView","Discussion","Class")]
   X <- split(numeric_columns, numeric_columns$Class)
   i =1;
@@ -256,7 +322,7 @@ question_1b <- function(datafile){
     print(out)
     i = i + 1
   }
-    
+
 }
 
 euclidean_dist <- function(x, y) {
@@ -266,4 +332,3 @@ euclidean_dist <- function(x, y) {
 
 #girls raise hands more and visit resources more
 
-# aggregrate(gender ~ raisedhands, data = datafile, FUN = mean)

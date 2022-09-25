@@ -1,4 +1,4 @@
-Creator "igraph version 1.3.1.9037 Fri Sep 23 21:16:48 2022"
+Creator "igraph version 1.3.1.9037 Sat Sep 24 17:23:44 2022"
 Version 1
 graph
 [
@@ -6,1554 +6,1073 @@ graph
   node
   [
     id 0
-    name "ANG_1"
-    label "ANG_1"
+    name "AD"
+    label "AD"
   ]
   node
   [
     id 1
-    name "BDNF_1"
-    label "BDNF_1"
+    name "AD.1"
+    label "AD.1"
   ]
   node
   [
     id 2
-    name "BLC_1"
-    label "BLC_1"
+    name "AD.2"
+    label "AD.2"
   ]
   node
   [
     id 3
-    name "BMP-4_1"
-    label "BMP-4_1"
+    name "AD.3"
+    label "AD.3"
   ]
   node
   [
     id 4
-    name "BMP-6_1"
-    label "BMP-6_1"
+    name "AD.4"
+    label "AD.4"
   ]
   node
   [
     id 5
-    name "CK b8-1_1"
-    label "CK b8-1_1"
+    name "AD.5"
+    label "AD.5"
   ]
   node
   [
     id 6
-    name "CNTF_1"
-    label "CNTF_1"
+    name "AD.6"
+    label "AD.6"
   ]
   node
   [
     id 7
-    name "EGF_1"
-    label "EGF_1"
+    name "AD.7"
+    label "AD.7"
   ]
   node
   [
     id 8
-    name "Eotaxin_1"
-    label "Eotaxin_1"
+    name "AD.8"
+    label "AD.8"
   ]
   node
   [
     id 9
-    name "Eotaxin-2_1"
-    label "Eotaxin-2_1"
+    name "AD.9"
+    label "AD.9"
   ]
   node
   [
     id 10
-    name "Eotaxin-3_1"
-    label "Eotaxin-3_1"
+    name "AD.10"
+    label "AD.10"
   ]
   node
   [
     id 11
-    name "FGF-6_1"
-    label "FGF-6_1"
+    name "AD.11"
+    label "AD.11"
   ]
   node
   [
     id 12
-    name "FGF-7_1"
-    label "FGF-7_1"
+    name "AD.12"
+    label "AD.12"
   ]
   node
   [
     id 13
-    name "Fit-3 Ligand_1"
-    label "Fit-3 Ligand_1"
+    name "AD.13"
+    label "AD.13"
   ]
   node
   [
     id 14
-    name "Fractalkine_1"
-    label "Fractalkine_1"
+    name "AD.14"
+    label "AD.14"
   ]
   node
   [
     id 15
-    name "GCP-2_1"
-    label "GCP-2_1"
+    name "AD.15"
+    label "AD.15"
   ]
   node
   [
     id 16
-    name "GDNF_1"
-    label "GDNF_1"
+    name "AD.16"
+    label "AD.16"
   ]
   node
   [
     id 17
-    name "GM-CSF_1"
-    label "GM-CSF_1"
+    name "AD.17"
+    label "AD.17"
   ]
   node
   [
     id 18
-    name "I-309_1"
-    label "I-309_1"
+    name "AD.18"
+    label "AD.18"
   ]
   node
   [
     id 19
-    name "IFN-g_1"
-    label "IFN-g_1"
+    name "AD.19"
+    label "AD.19"
   ]
   node
   [
     id 20
-    name "IGF-1_1"
-    label "IGF-1_1"
+    name "AD.20"
+    label "AD.20"
   ]
   node
   [
     id 21
-    name "IGFBP-1_1"
-    label "IGFBP-1_1"
+    name "AD.21"
+    label "AD.21"
   ]
   node
   [
     id 22
-    name "IGFBP-2_1"
-    label "IGFBP-2_1"
+    name "AD.22"
+    label "AD.22"
   ]
   node
   [
     id 23
-    name "IGFBP-4_1"
-    label "IGFBP-4_1"
+    name "AD.23"
+    label "AD.23"
   ]
   node
   [
     id 24
-    name "IL-10_1"
-    label "IL-10_1"
+    name "AD.24"
+    label "AD.24"
   ]
   node
   [
     id 25
-    name "IL-13_1"
-    label "IL-13_1"
+    name "AD.25"
+    label "AD.25"
   ]
   node
   [
     id 26
-    name "IL-15_1"
-    label "IL-15_1"
+    name "AD.26"
+    label "AD.26"
   ]
   node
   [
     id 27
-    name "IL-16_1"
-    label "IL-16_1"
+    name "AD.27"
+    label "AD.27"
   ]
   node
   [
     id 28
-    name "IL-1a_1"
-    label "IL-1a_1"
+    name "AD.28"
+    label "AD.28"
   ]
   node
   [
     id 29
-    name "IL-1b_1"
-    label "IL-1b_1"
+    name "AD.29"
+    label "AD.29"
   ]
   node
   [
     id 30
-    name "IL-1ra_1"
-    label "IL-1ra_1"
+    name "AD.30"
+    label "AD.30"
   ]
   node
   [
     id 31
-    name "IL-2_1"
-    label "IL-2_1"
+    name "AD.31"
+    label "AD.31"
   ]
   node
   [
     id 32
-    name "IL-3_1"
-    label "IL-3_1"
+    name "AD.32"
+    label "AD.32"
   ]
   node
   [
     id 33
-    name "IL-4_1"
-    label "IL-4_1"
+    name "AD.33"
+    label "AD.33"
   ]
   node
   [
     id 34
-    name "IL-5_1"
-    label "IL-5_1"
+    name "AD.34"
+    label "AD.34"
   ]
   node
   [
     id 35
-    name "IL-6_1"
-    label "IL-6_1"
+    name "AD.35"
+    label "AD.35"
   ]
   node
   [
     id 36
-    name "IL-7_1"
-    label "IL-7_1"
+    name "AD.36"
+    label "AD.36"
   ]
   node
   [
     id 37
-    name "LEPTIN(OB)_1"
-    label "LEPTIN(OB)_1"
+    name "AD.37"
+    label "AD.37"
   ]
   node
   [
     id 38
-    name "LIGHT_1"
-    label "LIGHT_1"
+    name "AD.38"
+    label "AD.38"
   ]
   node
   [
     id 39
-    name "MCP-1_1"
-    label "MCP-1_1"
+    name "AD.39"
+    label "AD.39"
   ]
   node
   [
     id 40
-    name "MCP-2_1"
-    label "MCP-2_1"
+    name "AD.40"
+    label "AD.40"
   ]
   node
   [
     id 41
-    name "MCP-3_1"
-    label "MCP-3_1"
+    name "AD.41"
+    label "AD.41"
   ]
   node
   [
     id 42
-    name "MCP-4_1"
-    label "MCP-4_1"
+    name "AD.42"
+    label "AD.42"
   ]
   node
   [
     id 43
-    name "M-CSF_1"
-    label "M-CSF_1"
+    name "NDC"
+    label "NDC"
   ]
   node
   [
     id 44
-    name "MDC_1"
-    label "MDC_1"
+    name "NDC.1"
+    label "NDC.1"
   ]
   node
   [
     id 45
-    name "MIG_1"
-    label "MIG_1"
+    name "NDC.2"
+    label "NDC.2"
   ]
   node
   [
     id 46
-    name "MIP-1d_1"
-    label "MIP-1d_1"
+    name "NDC.3"
+    label "NDC.3"
   ]
   node
   [
     id 47
-    name "MIP-3a_1"
-    label "MIP-3a_1"
+    name "NDC.4"
+    label "NDC.4"
   ]
   node
   [
     id 48
-    name "NAP-2_1"
-    label "NAP-2_1"
+    name "NDC.5"
+    label "NDC.5"
   ]
   node
   [
     id 49
-    name "NT-3_1"
-    label "NT-3_1"
+    name "NDC.6"
+    label "NDC.6"
   ]
   node
   [
     id 50
-    name "PARC_1"
-    label "PARC_1"
+    name "NDC.7"
+    label "NDC.7"
   ]
   node
   [
     id 51
-    name "PDGF-BB_1"
-    label "PDGF-BB_1"
+    name "NDC.8"
+    label "NDC.8"
   ]
   node
   [
     id 52
-    name "RANTES_1"
-    label "RANTES_1"
+    name "NDC.9"
+    label "NDC.9"
   ]
   node
   [
     id 53
-    name "SCF_1"
-    label "SCF_1"
+    name "NDC.10"
+    label "NDC.10"
   ]
   node
   [
     id 54
-    name "SDF-1_1"
-    label "SDF-1_1"
+    name "NDC.11"
+    label "NDC.11"
   ]
   node
   [
     id 55
-    name "TARC_1"
-    label "TARC_1"
+    name "NDC.12"
+    label "NDC.12"
   ]
   node
   [
     id 56
-    name "TGF-b_1"
-    label "TGF-b_1"
+    name "NDC.13"
+    label "NDC.13"
   ]
   node
   [
     id 57
-    name "TGF-b3_1"
-    label "TGF-b3_1"
+    name "NDC.14"
+    label "NDC.14"
   ]
   node
   [
     id 58
-    name "TNF-a_1"
-    label "TNF-a_1"
+    name "NDC.15"
+    label "NDC.15"
   ]
   node
   [
     id 59
-    name "TNF-b_1"
-    label "TNF-b_1"
+    name "NDC.16"
+    label "NDC.16"
   ]
   node
   [
     id 60
-    name "Acrp30_1"
-    label "Acrp30_1"
+    name "NDC.17"
+    label "NDC.17"
   ]
   node
   [
     id 61
-    name "AgRP(ART)_1"
-    label "AgRP(ART)_1"
+    name "NDC.18"
+    label "NDC.18"
   ]
   node
   [
     id 62
-    name "ANG-2_1"
-    label "ANG-2_1"
+    name "NDC.19"
+    label "NDC.19"
   ]
   node
   [
     id 63
-    name "AR_1"
-    label "AR_1"
+    name "NDC.20"
+    label "NDC.20"
   ]
   node
   [
     id 64
-    name "AXL_1"
-    label "AXL_1"
+    name "NDC.21"
+    label "NDC.21"
   ]
   node
   [
     id 65
-    name "bFGF"
-    label "bFGF"
+    name "NDC.22"
+    label "NDC.22"
   ]
   node
   [
     id 66
-    name "b-NGF_1"
-    label "b-NGF_1"
+    name "NDC.23"
+    label "NDC.23"
   ]
   node
   [
     id 67
-    name "BTC_1"
-    label "BTC_1"
+    name "NDC.24"
+    label "NDC.24"
   ]
   node
   [
     id 68
-    name "CCL-28_1"
-    label "CCL-28_1"
+    name "NDC.25"
+    label "NDC.25"
   ]
   node
   [
     id 69
-    name "CTACK_1"
-    label "CTACK_1"
+    name "NDC.26"
+    label "NDC.26"
   ]
   node
   [
     id 70
-    name "DTK_1"
-    label "DTK_1"
+    name "NDC.27"
+    label "NDC.27"
   ]
   node
   [
     id 71
-    name "EGF-R_1"
-    label "EGF-R_1"
+    name "NDC.28"
+    label "NDC.28"
   ]
   node
   [
     id 72
-    name "ENA-78_1"
-    label "ENA-78_1"
+    name "NDC.29"
+    label "NDC.29"
   ]
   node
   [
     id 73
-    name "FAS_1"
-    label "FAS_1"
+    name "NDC.30"
+    label "NDC.30"
   ]
   node
   [
     id 74
-    name "FGF-4_1"
-    label "FGF-4_1"
+    name "NDC.31"
+    label "NDC.31"
   ]
   node
   [
     id 75
-    name "FGF-9_1"
-    label "FGF-9_1"
+    name "NDC.32"
+    label "NDC.32"
   ]
   node
   [
     id 76
-    name "GCSF_1"
-    label "GCSF_1"
+    name "NDC.33"
+    label "NDC.33"
   ]
   node
   [
     id 77
-    name "GITR_1"
-    label "GITR_1"
+    name "NDC.34"
+    label "NDC.34"
   ]
   node
   [
     id 78
-    name "GITR-Light_1"
-    label "GITR-Light_1"
+    name "NDC.35"
+    label "NDC.35"
   ]
   node
   [
     id 79
-    name "GRO_1"
-    label "GRO_1"
+    name "NDC.36"
+    label "NDC.36"
   ]
   node
   [
     id 80
-    name "GRO-a_1"
-    label "GRO-a_1"
+    name "NDC.37"
+    label "NDC.37"
   ]
   node
   [
     id 81
-    name "HCC-4_1"
-    label "HCC-4_1"
+    name "NDC.38"
+    label "NDC.38"
   ]
   node
   [
     id 82
-    name "HGF_1"
-    label "HGF_1"
-  ]
-  node
-  [
-    id 83
-    name "ICAM-1_1"
-    label "ICAM-1_1"
-  ]
-  node
-  [
-    id 84
-    name "ICAM-3_1"
-    label "ICAM-3_1"
-  ]
-  node
-  [
-    id 85
-    name "IGF-1 SR"
-    label "IGF-1 SR"
-  ]
-  node
-  [
-    id 86
-    name "IGFBP3_1"
-    label "IGFBP3_1"
-  ]
-  node
-  [
-    id 87
-    name "IGFBP-6_1"
-    label "IGFBP-6_1"
-  ]
-  node
-  [
-    id 88
-    name "IL-1 RI_1"
-    label "IL-1 RI_1"
-  ]
-  node
-  [
-    id 89
-    name "IL-11_1"
-    label "IL-11_1"
-  ]
-  node
-  [
-    id 90
-    name "IL-12 p40_1"
-    label "IL-12 p40_1"
-  ]
-  node
-  [
-    id 91
-    name "IL-12 p70_1"
-    label "IL-12 p70_1"
-  ]
-  node
-  [
-    id 92
-    name "IL-17_1"
-    label "IL-17_1"
-  ]
-  node
-  [
-    id 93
-    name "IL-1R4 /ST2_1"
-    label "IL-1R4 /ST2_1"
-  ]
-  node
-  [
-    id 94
-    name "IL-2 Ra_1"
-    label "IL-2 Ra_1"
-  ]
-  node
-  [
-    id 95
-    name "IL-6 R_1"
-    label "IL-6 R_1"
-  ]
-  node
-  [
-    id 96
-    name "IL-8_1"
-    label "IL-8_1"
-  ]
-  node
-  [
-    id 97
-    name "I-TAC_1"
-    label "I-TAC_1"
-  ]
-  node
-  [
-    id 98
-    name "Lymphotactin_1"
-    label "Lymphotactin_1"
-  ]
-  node
-  [
-    id 99
-    name "MIF_1"
-    label "MIF_1"
-  ]
-  node
-  [
-    id 100
-    name "MIP-1a_1"
-    label "MIP-1a_1"
-  ]
-  node
-  [
-    id 101
-    name "MIP-1b_1"
-    label "MIP-1b_1"
-  ]
-  node
-  [
-    id 102
-    name "MIP-3b_1"
-    label "MIP-3b_1"
-  ]
-  node
-  [
-    id 103
-    name "MSP-a_1"
-    label "MSP-a_1"
-  ]
-  node
-  [
-    id 104
-    name "NT-4_1"
-    label "NT-4_1"
-  ]
-  node
-  [
-    id 105
-    name "OSM_1"
-    label "OSM_1"
-  ]
-  node
-  [
-    id 106
-    name "OST_1"
-    label "OST_1"
-  ]
-  node
-  [
-    id 107
-    name "PIGF_1"
-    label "PIGF_1"
-  ]
-  node
-  [
-    id 108
-    name "spg130_1"
-    label "spg130_1"
-  ]
-  node
-  [
-    id 109
-    name "sTNF RI_1"
-    label "sTNF RI_1"
-  ]
-  node
-  [
-    id 110
-    name "sTNF RII_1"
-    label "sTNF RII_1"
-  ]
-  node
-  [
-    id 111
-    name "TECK_1"
-    label "TECK_1"
-  ]
-  node
-  [
-    id 112
-    name "TIMP-1_1"
-    label "TIMP-1_1"
-  ]
-  node
-  [
-    id 113
-    name "TIMP-2_1"
-    label "TIMP-2_1"
-  ]
-  node
-  [
-    id 114
-    name "TPO_1"
-    label "TPO_1"
-  ]
-  node
-  [
-    id 115
-    name "TRAIL R3_1"
-    label "TRAIL R3_1"
-  ]
-  node
-  [
-    id 116
-    name "TRAIL R4_1"
-    label "TRAIL R4_1"
-  ]
-  node
-  [
-    id 117
-    name "uPAR_1"
-    label "uPAR_1"
-  ]
-  node
-  [
-    id 118
-    name "VEGF-B_1"
-    label "VEGF-B_1"
-  ]
-  node
-  [
-    id 119
-    name "VEGF-D_1"
-    label "VEGF-D_1"
+    name "NDC.39"
+    label "NDC.39"
   ]
   edge
   [
-    source 50
+    source 2
     target 0
-    weight 12.9493419011931
-    label 12.949
+    weight 7.11560104654836
+    label 7.116
   ]
   edge
   [
-    source 60
+    source 51
     target 0
-    weight 24.1758583470244
-    label 24.176
+    weight 7.4124776889233
+    label 7.412
   ]
   edge
   [
-    source 3
+    source 11
     target 1
-    weight 8.85084434733938
-    label 8.851
-  ]
-  edge
-  [
-    source 5
-    target 2
-    weight 4.24380088178174
-    label 4.244
+    weight 6.17855370172015
+    label 6.179
   ]
   edge
   [
     source 4
     target 3
-    weight 5.48286331527747
-    label 5.483
+    weight 3.41397082437001
+    label 3.414
   ]
   edge
   [
-    source 6
+    source 5
+    target 3
+    weight 3.48653523730339
+    label 3.487
+  ]
+  edge
+  [
+    source 46
+    target 3
+    weight 4.96452616519244
+    label 4.965
+  ]
+  edge
+  [
+    source 38
     target 4
-    weight 4.59385336464267
-    label 4.594
+    weight 6.48798811599779
+    label 6.488
   ]
   edge
   [
-    source 6
+    source 22
     target 5
-    weight 3.76023405927128
-    label 3.76
-  ]
-  edge
-  [
-    source 44
-    target 5
-    weight 3.8703119901709
-    label 3.87
-  ]
-  edge
-  [
-    source 49
-    target 5
-    weight 4.17704538246588
-    label 4.177
-  ]
-  edge
-  [
-    source 7
-    target 6
-    weight 6.75476467461825
-    label 6.755
+    weight 6.06713388136001
+    label 6.067
   ]
   edge
   [
     source 8
     target 6
-    weight 8.38509439978014
-    label 8.385
+    weight 8.51889647641013
+    label 8.519
   ]
   edge
   [
-    source 51
+    source 10
     target 7
-    weight 9.90127956098695
-    label 9.901
-  ]
-  edge
-  [
-    source 11
-    target 9
-    weight 5.15611692312028
-    label 5.156
-  ]
-  edge
-  [
-    source 11
-    target 10
-    weight 3.91264664095624
-    label 3.913
-  ]
-  edge
-  [
-    source 14
-    target 10
-    weight 2.87870766852669
-    label 2.879
-  ]
-  edge
-  [
-    source 18
-    target 10
-    weight 2.82726129816107
-    label 2.827
-  ]
-  edge
-  [
-    source 28
-    target 10
-    weight 3.97633152168164
-    label 3.976
-  ]
-  edge
-  [
-    source 61
-    target 10
-    weight 8.23004376753911
-    label 8.23
+    weight 6.76936534193333
+    label 6.769
   ]
   edge
   [
     source 13
-    target 12
-    weight 2.25098101287572
-    label 2.251
+    target 7
+    weight 7.10669308860929
+    label 7.107
   ]
   edge
   [
-    source 24
-    target 12
-    weight 4.23856515037325
-    label 4.239
+    source 47
+    target 8
+    weight 8.88053669677537
+    label 8.881
   ]
   edge
   [
-    source 68
-    target 12
-    weight 3.98718022822966
-    label 3.987
+    source 70
+    target 8
+    weight 8.53441909778016
+    label 8.534
   ]
   edge
   [
-    source 72
-    target 12
-    weight 3.59199289348947
-    label 3.592
+    source 37
+    target 9
+    weight 4.96972895980675
+    label 4.97
   ]
   edge
   [
-    source 18
-    target 13
-    weight 2.82369068529349
-    label 2.824
-  ]
-  edge
-  [
-    source 26
-    target 13
-    weight 2.22481884156389
-    label 2.225
-  ]
-  edge
-  [
-    source 29
-    target 13
-    weight 3.01080188918085
-    label 3.011
-  ]
-  edge
-  [
-    source 17
-    target 15
-    weight 2.02887677787313
-    label 2.029
+    source 33
+    target 11
+    weight 5.66624550100339
+    label 5.666
   ]
   edge
   [
     source 27
+    target 12
+    weight 3.86282595476096
+    label 3.863
+  ]
+  edge
+  [
+    source 33
+    target 12
+    weight 4.10622394206261
+    label 4.106
+  ]
+  edge
+  [
+    source 14
+    target 13
+    weight 4.99952011412191
+    label 5
+  ]
+  edge
+  [
+    source 37
+    target 13
+    weight 4.50774394683338
+    label 4.508
+  ]
+  edge
+  [
+    source 39
+    target 13
+    weight 6.60127734581041
+    label 6.601
+  ]
+  edge
+  [
+    source 71
+    target 13
+    weight 5.93782548532401
+    label 5.938
+  ]
+  edge
+  [
+    source 29
+    target 14
+    weight 4.64545318081943
+    label 4.645
+  ]
+  edge
+  [
+    source 49
+    target 14
+    weight 7.10313380768266
+    label 7.103
+  ]
+  edge
+  [
+    source 68
+    target 14
+    weight 5.72385992898545
+    label 5.724
+  ]
+  edge
+  [
+    source 16
     target 15
-    weight 2.35950720528383
-    label 2.36
+    weight 6.32239872962785
+    label 6.322
   ]
   edge
   [
-    source 55
+    source 40
     target 15
-    weight 2.59115705745802
-    label 2.591
-  ]
-  edge
-  [
-    source 28
-    target 16
-    weight 4.09385075379575
-    label 4.094
-  ]
-  edge
-  [
-    source 58
-    target 16
-    weight 4.08988081628263
-    label 4.09
+    weight 6.58495670727749
+    label 6.585
   ]
   edge
   [
     source 25
     target 17
-    weight 2.47678613799978
-    label 2.477
-  ]
-  edge
-  [
-    source 34
-    target 17
-    weight 2.12504857488901
-    label 2.125
-  ]
-  edge
-  [
-    source 20
-    target 18
-    weight 3.79664225516911
-    label 3.797
-  ]
-  edge
-  [
-    source 38
-    target 18
-    weight 3.17756763421373
-    label 3.178
-  ]
-  edge
-  [
-    source 33
-    target 19
-    weight 3.04830316909246
-    label 3.048
-  ]
-  edge
-  [
-    source 46
-    target 21
-    weight 5.87322820184086
-    label 5.873
-  ]
-  edge
-  [
-    source 46
-    target 22
-    weight 6.64520881442827
-    label 6.645
+    weight 5.28235669041192
+    label 5.282
   ]
   edge
   [
     source 56
-    target 23
-    weight 3.90421358306411
-    label 3.904
+    target 17
+    weight 6.24584401352002
+    label 6.246
   ]
   edge
   [
-    source 27
-    target 26
-    weight 2.37874638041862
-    label 2.379
+    source 19
+    target 18
+    weight 6.41370551025123
+    label 6.414
   ]
   edge
   [
     source 31
+    target 19
+    weight 7.10696437836432
+    label 7.107
+  ]
+  edge
+  [
+    source 24
+    target 20
+    weight 5.75523996820821
+    label 5.755
+  ]
+  edge
+  [
+    source 27
+    target 20
+    weight 4.69880771897772
+    label 4.699
+  ]
+  edge
+  [
+    source 32
+    target 20
+    weight 5.8894056660781
+    label 5.889
+  ]
+  edge
+  [
+    source 22
+    target 21
+    weight 4.00368183056267
+    label 4.004
+  ]
+  edge
+  [
+    source 57
+    target 21
+    weight 4.79374210827805
+    label 4.794
+  ]
+  edge
+  [
+    source 58
+    target 21
+    weight 4.56045900540574
+    label 4.56
+  ]
+  edge
+  [
+    source 65
+    target 21
+    weight 4.14361020350992
+    label 4.144
+  ]
+  edge
+  [
+    source 59
+    target 22
+    weight 5.7990592441061
+    label 5.799
+  ]
+  edge
+  [
+    source 32
+    target 23
+    weight 6.51734732159087
+    label 6.517
+  ]
+  edge
+  [
+    source 76
+    target 25
+    weight 5.30114062839747
+    label 5.301
+  ]
+  edge
+  [
+    source 32
     target 26
-    weight 2.2434621980095
-    label 2.243
+    weight 5.90821975531789
+    label 5.908
   ]
   edge
   [
-    source 42
-    target 26
-    weight 2.9024171926642
-    label 2.902
+    source 28
+    target 27
+    weight 5.57712086666655
+    label 5.577
   ]
   edge
   [
-    source 46
-    target 30
-    weight 5.9573013019862
-    label 5.957
+    source 31
+    target 27
+    weight 5.37297296354531
+    label 5.373
   ]
   edge
   [
-    source 35
-    target 31
-    weight 2.65680101887127
-    label 2.657
+    source 57
+    target 27
+    weight 5.35522293698553
+    label 5.355
   ]
   edge
   [
-    source 37
-    target 32
-    weight 6.10852279868525
-    label 6.109
+    source 77
+    target 27
+    weight 5.85233001829594
+    label 5.852
   ]
   edge
   [
-    source 44
-    target 32
-    weight 3.49524711402674
-    label 3.495
+    source 30
+    target 29
+    weight 4.20990946793765
+    label 4.21
   ]
   edge
   [
-    source 41
-    target 33
-    weight 3.11465588373536
-    label 3.115
-  ]
-  edge
-  [
-    source 44
-    target 33
-    weight 2.74769880458439
-    label 2.748
-  ]
-  edge
-  [
-    source 36
-    target 34
-    weight 3.81943230257597
-    label 3.819
-  ]
-  edge
-  [
-    source 92
-    target 34
-    weight 2.95909205647703
-    label 2.959
-  ]
-  edge
-  [
-    source 45
-    target 39
-    weight 3.39911232985795
-    label 3.399
-  ]
-  edge
-  [
-    source 41
-    target 40
-    weight 3.74794590995494
-    label 3.748
-  ]
-  edge
-  [
-    source 42
-    target 41
-    weight 2.80478154694723
-    label 2.805
-  ]
-  edge
-  [
-    source 45
-    target 41
-    weight 3.20369637595277
-    label 3.204
-  ]
-  edge
-  [
-    source 44
-    target 43
-    weight 3.43277301035686
-    label 3.433
-  ]
-  edge
-  [
-    source 46
-    target 43
-    weight 4.77760270034677
-    label 4.778
+    source 34
+    target 29
+    weight 5.49161364721505
+    label 5.492
   ]
   edge
   [
     source 56
-    target 47
-    weight 2.88329216559385
-    label 2.883
+    target 29
+    weight 6.08016450026374
+    label 6.08
   ]
   edge
   [
-    source 50
+    source 31
+    target 30
+    weight 5.39107767741064
+    label 5.391
+  ]
+  edge
+  [
+    source 64
+    target 30
+    weight 7.09878176335428
+    label 7.099
+  ]
+  edge
+  [
+    source 35
+    target 34
+    weight 4.92279536944174
+    label 4.923
+  ]
+  edge
+  [
+    source 68
+    target 36
+    weight 5.8017290210778
+    label 5.802
+  ]
+  edge
+  [
+    source 41
+    target 38
+    weight 5.57305254703164
+    label 5.573
+  ]
+  edge
+  [
+    source 42
+    target 38
+    weight 4.66146620098902
+    label 4.661
+  ]
+  edge
+  [
+    source 40
+    target 39
+    weight 6.01972665368256
+    label 6.02
+  ]
+  edge
+  [
+    source 44
+    target 43
+    weight 6.26223483751195
+    label 6.262
+  ]
+  edge
+  [
+    source 45
+    target 43
+    weight 6.31060078253946
+    label 6.311
+  ]
+  edge
+  [
+    source 78
+    target 43
+    weight 7.0259955873371
+    label 7.026
+  ]
+  edge
+  [
+    source 80
+    target 43
+    weight 7.21495632234955
+    label 7.215
+  ]
+  edge
+  [
+    source 81
+    target 43
+    weight 6.14432422645005
+    label 6.144
+  ]
+  edge
+  [
+    source 68
     target 48
-    weight 13.6323363302206
-    label 13.632
+    weight 6.28721471973677
+    label 6.287
   ]
   edge
   [
-    source 112
-    target 48
-    weight 12.6786729963531
-    label 12.679
-  ]
-  edge
-  [
-    source 57
-    target 49
-    weight 4.65068113270863
-    label 4.651
-  ]
-  edge
-  [
-    source 113
+    source 51
     target 50
-    weight 12.2553158721732
-    label 12.255
+    weight 5.44951641212538
+    label 5.45
   ]
   edge
   [
-    source 113
+    source 53
+    target 50
+    weight 5.94165074887658
+    label 5.942
+  ]
+  edge
+  [
+    source 52
+    target 51
+    weight 5.35927908136157
+    label 5.359
+  ]
+  edge
+  [
+    source 56
     target 52
-    weight 12.9951426405861
-    label 12.995
-  ]
-  edge
-  [
-    source 57
-    target 53
-    weight 4.85673253161946
-    label 4.857
+    weight 5.50738337911667
+    label 5.507
   ]
   edge
   [
     source 56
     target 54
-    weight 2.59655816527515
-    label 2.597
+    weight 5.65253196309434
+    label 5.653
   ]
   edge
   [
-    source 56
+    source 70
     target 55
-    weight 2.98725222226225
-    label 2.987
+    weight 5.76762902042214
+    label 5.768
   ]
   edge
   [
-    source 74
+    source 73
     target 55
-    weight 4.59188984631732
-    label 4.592
+    weight 6.36708668537012
+    label 6.367
   ]
   edge
   [
-    source 89
-    target 55
-    weight 3.50332618541181
-    label 3.503
-  ]
-  edge
-  [
-    source 59
-    target 57
-    weight 4.30820551857412
-    label 4.308
-  ]
-  edge
-  [
-    source 64
-    target 62
-    weight 4.28038908288917
-    label 4.28
-  ]
-  edge
-  [
-    source 64
-    target 63
-    weight 3.82796576384805
-    label 3.828
+    source 62
+    target 56
+    weight 5.17632802717628
+    label 5.176
   ]
   edge
   [
     source 66
-    target 63
-    weight 4.41764557593069
-    label 4.418
-  ]
-  edge
-  [
-    source 65
-    target 64
-    weight 4.30825272042188
-    label 4.308
-  ]
-  edge
-  [
-    source 71
-    target 64
-    weight 3.71173681426428
-    label 3.712
+    target 57
+    weight 5.97728918987539
+    label 5.977
   ]
   edge
   [
     source 67
-    target 65
-    weight 4.78214178546069
-    label 4.782
+    target 57
+    weight 6.15529953185773
+    label 6.155
   ]
   edge
   [
-    source 86
+    source 63
+    target 60
+    weight 5.79649807309008
+    label 5.796
+  ]
+  edge
+  [
+    source 62
+    target 61
+    weight 5.34971905225224
+    label 5.35
+  ]
+  edge
+  [
+    source 63
+    target 62
+    weight 5.81055680447726
+    label 5.811
+  ]
+  edge
+  [
+    source 74
+    target 68
+    weight 4.37068428062948
+    label 4.371
+  ]
+  edge
+  [
+    source 75
+    target 68
+    weight 5.5858367346482
+    label 5.586
+  ]
+  edge
+  [
+    source 75
     target 69
-    weight 5.8002392092243
-    label 5.8
+    weight 7.08490332663442
+    label 7.085
   ]
   edge
   [
-    source 84
+    source 71
     target 70
-    weight 3.61395932257417
-    label 3.614
+    weight 6.2563805399825
+    label 6.256
   ]
   edge
   [
-    source 86
-    target 71
-    weight 3.1357318407413
-    label 3.136
-  ]
-  edge
-  [
-    source 111
-    target 71
-    weight 9.20406625698661
-    label 9.204
+    source 72
+    target 70
+    weight 6.01736871322741
+    label 6.017
   ]
   edge
   [
     source 81
-    target 72
-    weight 3.59097751151761
-    label 3.591
+    target 77
+    weight 7.64271909276398
+    label 7.643
   ]
   edge
   [
-    source 97
-    target 72
-    weight 5.78788513378482
-    label 5.788
-  ]
-  edge
-  [
-    source 86
-    target 73
-    weight 4.11912818345099
-    label 4.119
-  ]
-  edge
-  [
-    source 87
-    target 73
-    weight 5.19936946756304
-    label 5.199
-  ]
-  edge
-  [
-    source 77
-    target 75
-    weight 4.02641509145926
-    label 4.026
-  ]
-  edge
-  [
-    source 85
-    target 75
-    weight 3.35660911112485
-    label 3.357
-  ]
-  edge
-  [
-    source 78
-    target 76
-    weight 11.9546768638134
-    label 11.955
-  ]
-  edge
-  [
-    source 118
+    source 79
     target 78
-    weight 5.25579389449989
-    label 5.256
+    weight 7.73526615948535
+    label 7.735
   ]
   edge
   [
-    source 114
-    target 79
-    weight 4.12034052775711
-    label 4.12
-  ]
-  edge
-  [
-    source 81
-    target 80
-    weight 3.67277200441896
-    label 3.673
-  ]
-  edge
-  [
-    source 105
-    target 82
-    weight 3.8669073097029
-    label 3.867
-  ]
-  edge
-  [
-    source 95
-    target 83
-    weight 10.3885672052007
-    label 10.389
-  ]
-  edge
-  [
-    source 85
-    target 84
-    weight 3.86284634698995
-    label 3.863
-  ]
-  edge
-  [
-    source 98
-    target 84
-    weight 4.46532441958973
-    label 4.465
-  ]
-  edge
-  [
-    source 88
-    target 85
-    weight 3.05041794700893
-    label 3.05
-  ]
-  edge
-  [
-    source 93
-    target 85
-    weight 2.97839636355849
-    label 2.978
-  ]
-  edge
-  [
-    source 119
-    target 85
-    weight 3.94287723746926
-    label 3.943
-  ]
-  edge
-  [
-    source 100
-    target 86
-    weight 3.72844104577792
-    label 3.728
-  ]
-  edge
-  [
-    source 114
-    target 86
-    weight 4.12698853487539
-    label 4.127
-  ]
-  edge
-  [
-    source 89
-    target 88
-    weight 3.02840314611474
-    label 3.028
-  ]
-  edge
-  [
-    source 116
-    target 90
-    weight 4.50074968797465
-    label 4.501
-  ]
-  edge
-  [
-    source 92
-    target 91
-    weight 3.32276576164118
-    label 3.323
-  ]
-  edge
-  [
-    source 106
-    target 91
-    weight 3.18325859689945
-    label 3.183
-  ]
-  edge
-  [
-    source 94
-    target 92
-    weight 3.34269419738514
-    label 3.343
-  ]
-  edge
-  [
-    source 115
-    target 95
-    weight 8.20968578349067
-    label 8.21
-  ]
-  edge
-  [
-    source 114
-    target 96
-    weight 5.74808323798218
-    label 5.748
-  ]
-  edge
-  [
-    source 101
-    target 99
-    weight 4.50663304823543
-    label 4.507
-  ]
-  edge
-  [
-    source 101
-    target 100
-    weight 3.19425637728826
-    label 3.194
-  ]
-  edge
-  [
-    source 110
-    target 101
-    weight 6.19837080420364
-    label 6.198
-  ]
-  edge
-  [
-    source 118
-    target 101
-    weight 4.26794179136538
-    label 4.268
-  ]
-  edge
-  [
-    source 106
-    target 102
-    weight 3.33407026305343
-    label 3.334
-  ]
-  edge
-  [
-    source 115
-    target 103
-    weight 9.35241572266555
-    label 9.352
-  ]
-  edge
-  [
-    source 106
-    target 104
-    weight 3.38512891335933
-    label 3.385
-  ]
-  edge
-  [
-    source 106
-    target 105
-    weight 2.66142287814577
-    label 2.661
-  ]
-  edge
-  [
-    source 109
-    target 105
-    weight 5.47885509821529
-    label 5.479
-  ]
-  edge
-  [
-    source 114
-    target 105
-    weight 4.02800705642682
-    label 4.028
-  ]
-  edge
-  [
-    source 107
-    target 106
-    weight 3.07828222233735
-    label 3.078
-  ]
-  edge
-  [
-    source 110
-    target 108
-    weight 6.92241167035273
-    label 6.922
-  ]
-  edge
-  [
-    source 115
-    target 110
-    weight 8.42253171374573
-    label 8.423
-  ]
-  edge
-  [
-    source 115
-    target 112
-    weight 9.18966906777276
-    label 9.19
-  ]
-  edge
-  [
-    source 116
-    target 114
-    weight 3.86857775900949
-    label 3.869
-  ]
-  edge
-  [
-    source 119
-    target 117
-    weight 3.52491117928206
-    label 3.525
+    source 82
+    target 81
+    weight 7.3710571560357
+    label 7.371
   ]
 ]
